@@ -16,8 +16,8 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
+**Strong match areas:** Golang, backend/distributed systems, Docker, full-stack development (React/TypeScript), PostgreSQL, REST APIs, LLM/RAG and agentic AI tooling
+**Moderate match areas:** Kotlin/Android development, Java/Spring Boot, Kafka, cybersecurity and embedded systems (currently studying in Master's)
 **Weak match areas:** [SKILLS_YOU_LACK]
 
 ### 2. Experience Match (0-100)
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Backend/full-stack software development, LLM-powered applications, data governance/access-control tooling
+**Moderate:** Distributed systems, event-driven microservices, embedded systems/cybersecurity (still coursework, not yet professional experience)
+**Entry-level:** Roles requiring several years of senior/lead experience (candidate is early-career: ~10 months combined internship experience plus an ongoing Master's degree)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -63,19 +63,21 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Grow as a backend/distributed-systems engineer, deepening Go and containerized/event-driven architecture skills
+- Take on more full-stack product ownership (end-to-end features, not just isolated tasks)
+- Work on deep, low-level engineering problems (protocols, compilers/interpreters, systems programming) alongside day-to-day product work
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: Backend/distributed-systems design, full-stack feature ownership, deep systems/low-level engineering (protocols, compilers, interpreters)
+- Tasks that drain: [YOUR_DRAINING_TASKS - not yet captured]
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Note: candidate has hands-on LLM/agentic AI experience (ITI R&D internship, RAG/LangGraph projects) but did not rank it among top motivators - treat AI/LLM roles as a genuine skill match, not a top-preference career direction
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT - not yet captured]
+- **Flexibility**: Finishing Master's degree part-time (expected Sep 2026); needs a schedule compatible with ongoing coursework
+- **Professional development**: Wants growth in backend/distributed systems, full-stack ownership, and deep systems programming
+- **Deal-breakers**: None strong at this early career stage (evaluate case by case); relocation outside Valencia is a soft constraint tied to finishing the Master's
 
 ### 6. Salary Benchmark (Optional)
 

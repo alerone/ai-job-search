@@ -106,8 +106,8 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Backend / Full-Stack Engineer roles:** *[Used for: general backend/full-stack applications]*
+> Software Engineer with a strong background in Computer Science and a specialization in Backend Development and Distributed Architectures. Proficient in Golang and container ecosystems such as Docker, with proven full-stack capabilities in React and TypeScript. Passionate about deep engineering topics, including compilers and network protocols, as well as building scalable products. Not afraid to learn new technologies.
 
 **For [YOUR_SECONDARY_ROLE_TYPE] roles:**
 > [YOUR_PROFILE_STATEMENT_TEMPLATE_2]

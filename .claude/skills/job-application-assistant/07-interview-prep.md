@@ -35,6 +35,68 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 <!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
 
+## STAR Candidates (Complete Manually)
+
+### ValenMove (TFG) - reverse-engineering public APIs, MVVM architecture
+**Source:** CV / Portfolio - Final Degree Project (2024)
+**What happened:** Built a native Android app unifying three separate Valencia public-transport data sources into one real-time interface, graded 9/10.
+**Why it matters:** Independent initiative, reverse-engineering unofficial APIs, handling real-time data, mobile architecture (MVVM)
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### CourseAI - full-stack AI product development
+**Source:** CV / Portfolio - personal project (ongoing)
+**What happened:** Designed and built an AI-powered SaaS platform that generates personalized courses using the Gemini API, with a Go backend and React/TypeScript frontend.
+**Why it matters:** End-to-end product ownership, LLM integration, full-stack architecture decisions
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### FaaS with Golang - distributed systems design
+**Source:** Portfolio - personal project
+**What happened:** Built a Function-as-a-Service platform with NATS JetStream work queues, an Apache APISIX gateway, and horizontally scalable Dockerized workers.
+**Why it matters:** Distributed systems design, message queues, API gateway/security, scalability
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### Monkey Interpreter - language/compiler fundamentals
+**Source:** CV / Portfolio - personal project (based on "Writing an Interpreter in Go")
+**What happened:** Hand-built a lexer, Pratt parser, AST, and evaluator for a custom programming language from scratch.
+**Why it matters:** Deep computer-science fundamentals, algorithmic thinking, going beyond framework-level work
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### ITI R&D Developer - applied LLM engineering for data governance
+**Source:** CV / LinkedIn / Portfolio - ITI R&D Developer role (Feb-Jun 2026)
+**What happened:** Implemented LLM-based improvements to a search engine and built a LangGraph agent that converts natural-language questions into validated, read-only SQL to resolve data-access policies in an industrial data-governance platform.
+**Why it matters:** Real-world/professional LLM and agentic engineering experience, safety-conscious system design (query validation, retries), applied to a governance/compliance context
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
+### ITI Full-Stack Internship (2024) - professional cross-functional work
+**Source:** CV / LinkedIn - Full-Stack Developer Intern role (Feb-Jun 2024)
+**What happened:** Improved and maintained ITI's internal personnel-management Intranet application, contributing to both frontend (React/TypeScript) and backend.
+**Why it matters:** First professional software engineering experience, working within an existing codebase and team process
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
+
 ## Common Tough Questions
 
 ### "Why did you leave [previous company]?"

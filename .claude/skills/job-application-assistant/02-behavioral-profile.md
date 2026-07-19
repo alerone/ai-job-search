@@ -19,11 +19,13 @@
 - **[BEHAVIOR_1]:** [DESCRIPTION]
 - **[BEHAVIOR_2]:** [DESCRIPTION]
 - **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Self-directed learner** *[Inferred from LinkedIn About - review before relying on this]*: studies new technologies independently outside of work; has driven multiple self-initiated learning projects (RAG pipeline, interpreters, Kafka/Spring Boot courses) beyond formal coursework or job requirements.
 
 ## How You Work Best
 - [ENVIRONMENT_PREFERENCE_1]
 - [ENVIRONMENT_PREFERENCE_2]
 - [ENVIRONMENT_PREFERENCE_3]
+- Environments that reward independent exploration and continuous self-teaching of new tools/languages *[Inferred from LinkedIn About - review before relying on this]*
 
 ## Growth Areas (frame positively in applications)
 - **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]

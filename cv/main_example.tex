@@ -1,4 +1,4 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Álvaro López Álvarez
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
@@ -24,18 +24,31 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Álvaro López Álvarez - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{eso-pic}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% moderncv's banking style (head variant 3) does not wire up \photo at all -
+% it is silently ignored. Overlay the photo directly instead, anchored to the
+% page corner so it is independent of the centered banking header layout.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
 
 \begin{document}
 
@@ -46,7 +59,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Software Engineer with a strong background in Computer Science and a specialization in Backend Development and Distributed Architectures. Proficient in Golang and container ecosystems such as Docker, with proven full-stack capabilities in React and TypeScript. Passionate about deep engineering topics, including compilers and network protocols, as well as building scalable products. Not afraid to learn new technologies.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +69,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend \& Languages}: Golang, TypeScript/JavaScript, Java, Python, Kotlin, SQL
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Distributed Systems}: Docker, NATS, Apache Kafka, Apache APISIX, event-driven microservices
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Full-Stack Development}: React, PostgreSQL, REST APIs, OAuth 2.0/JWT
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{LLM/AI Engineering}: LangChain, LangGraph, Gemini API, OpenAI API, RAG pipelines
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Tools \& Practices}: Git, GitHub Actions, Docker Compose, Testcontainers, TDD
 
 \end{itemize}
 
@@ -77,31 +90,21 @@
 \begin{itemize}
 
 % --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Feb 2026--Jun 2026}{R\&D Developer}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Implemented LLM-based improvements to a search engine
+    \item Built a LangGraph agent converting natural-language questions into validated, read-only SQL to resolve data-access policies in an industrial data-governance/sovereignty platform
+    \item Applied safety-conscious agentic design: schema selection, structured SQL generation, execution validation, retry-on-error
 \end{itemize}}}
 
 \vspace{3pt}
 
 % --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Feb 2024--Jun 2024}{Full-Stack Developer Intern}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Developed and maintained the corporate personnel management application (Intranet)
+    \item Implemented new frontend features using React and TypeScript, improving internal usability
+    \item Contributed to backend development, ensuring smooth integration between services
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +117,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2024--2026}{Master's Degree in Computer Engineering (MUIINF)}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+In progress (expected Sep 2026). Topics: distributed systems, high-performance computing, cybersecurity, embedded systems.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2020--2024}{Grado (BSc) in Ingeniería Informática, Software Engineering track}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+GPA: 8.88/10. Thesis: ``ValenMove - Unified Public Transport App'' (grade 9/10).
 }}
 
 \end{itemize}
@@ -133,27 +136,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Spanish (native), Catalan (native), English (B2, confident conversational).
 \end{itemize}
 
 % ============================================================

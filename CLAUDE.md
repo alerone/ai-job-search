@@ -1,10 +1,10 @@
-# Job Application Assistant for [YOUR_NAME]
+# Job Application Assistant for Álvaro López Álvarez
 
 <!-- SETUP: This file is populated by running /setup -->
 <!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Álvaro López Álvarez, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -16,65 +16,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 <!-- This section is auto-populated by /setup. You can also fill it in manually. -->
 
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Álvaro López Álvarez
+- **Location:** Valencia, España (Valencia city and nearby area only, no relocation)
+- **Languages:** Spanish (native), Catalan (native), English (B2, confident conversational)
+- **Status:** Available now. R&D internship at ITI ended June 2026; finishing Master's degree part-time (expected Sep 2026). Actively job searching.
+- **LinkedIn headline:** "Junior Software Engineer and Backend Developer"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Master's Degree in Computer Engineering (MUIINF)** (2024-2026, in progress) - Polytechnic University of Valencia (UPV)
+  - Topics: Distributed systems, high-performance computing, cybersecurity, embedded systems
+- **Grado (BSc) in Ingeniería Informática, Software Engineering track** (2020-2024) - Polytechnic University of Valencia (UPV)
+  - Thesis: "ValenMove - Unified Public Transport App" (grade 9/10)
+  - GPA: 8.88/10
 
 ### Professional Experience
 <!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **R&D Developer** (Feb 2026 - Jun 2026) - **Instituto Tecnológico de Informática (ITI)** (Valencia, España)
+  - Implemented LLM-based improvements to a search engine
+  - Built a LangGraph agent converting natural-language questions into validated, read-only SQL to resolve data-access policies in an industrial data-governance/sovereignty platform
+  - Applied safety-conscious agentic design: schema selection, structured SQL generation, execution validation, retry-on-error
+- **Full-Stack Developer Intern** (Feb 2024 - Jun 2024) - **Instituto Tecnológico de Informática (ITI)** (Valencia, España)
+  - Developed and maintained the corporate personnel management application (Intranet)
+  - Implemented new frontend features using React and TypeScript, improving internal usability
+  - Contributed to backend development, ensuring smooth integration between services
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Golang, TypeScript/JavaScript, React
+- **Secondary:** Kotlin, Java, Python, SQL, GDScript, C
+- **Domain:** Backend development, distributed systems, containerization, compilers/interpreters, network protocols, event-driven microservices, LLM/RAG/agentic AI tooling
+- **Software:** Docker, Git, GitHub Actions, PostgreSQL, NATS, Apache APISIX, Kafka, Spring Boot, Firebase, Supabase, Vercel, Render, Android Studio, NeoVim, OAuth 2.0/JWT
 
 ### Certifications
 <!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None yet.
 
 ### Publications
 <!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None yet.
 
 ### Awards
 <!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None yet.
 
 ### Behavioral Profile
 <!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Self-directed learner** *[Inferred from LinkedIn About - review before relying on this]* - studies new technologies independently outside of work; has driven multiple self-initiated learning projects beyond formal coursework or job requirements
+- **Strengths:** Backend/distributed systems engineering, full-stack product ownership, deep systems/low-level engineering (compilers, interpreters, network protocols)
+- **Growth areas:** Not yet captured - revisit during interview prep
+- **Thrives in:** Environments that reward independent exploration and continuous self-teaching of new tools/languages *[Inferred from LinkedIn About]*
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Backend/distributed systems engineering (Go, Docker, event-driven microservices, scalable architecture)
+- Full-stack product ownership (end-to-end features, not just isolated tasks, as with CourseAI)
+- Deep systems/low-level engineering (compilers, interpreters, network protocols - as with Monkey Interpreter and HTTP-from-TCP)
 
 ### Target Sectors
 <!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Fintech/Payments: Flywire, Revolut
+- Retail Tech: Mercadona Tech, Consum
+- Enterprise IT/Consulting: Indra
+- Software Products: OpenLine NL
 
 ### Deal-breakers
 <!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- None strong at this early career stage; evaluate case by case
+- Relocation outside the Valencia area (soft constraint tied to finishing the Master's degree)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
