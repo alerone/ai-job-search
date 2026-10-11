@@ -1,0 +1,940 @@
+{
+  "seen": {
+    "https://es.linkedin.com/jobs/view/junior-software-engineer-consumer-team-at-clarity-ai-4435844067": {
+      "title": "Junior Software Engineer - Consumer Team",
+      "company": "Clarity AI",
+      "url": "https://www.linkedin.com/jobs/view/4435844067",
+      "first_seen": "2026-07-09",
+      "fit": "high",
+      "status": "ranked",
+      "rank_score": 72,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/backend-developer-java-spring-boot-at-mercadona-4264421381": {
+      "title": "Backend Developer Java Spring Boot",
+      "company": "Mercadona",
+      "url": "https://www.linkedin.com/jobs/view/4264421381",
+      "first_seen": "2026-07-09",
+      "fit": "high",
+      "status": "ranked",
+      "rank_score": 53,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/python-developer-especializado-en-ia-at-mercadona-4434848810": {
+      "title": "Python Developer - Especializado en IA",
+      "company": "Mercadona",
+      "url": "https://www.linkedin.com/jobs/view/4434848810",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 46,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/programador-a-junior-java-springboot-%2B-angular-%2B-pl-sql-at-adding-technology-s-a-4437834971": {
+      "title": "Programador/a Junior Java (SpringBoot) + Angular + PL/SQL",
+      "company": "Adding Technology S.A.",
+      "url": "https://www.linkedin.com/jobs/view/4437834971",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "evaluated"
+    },
+    "https://es.linkedin.com/jobs/view/graduate-software-engineer-at-bending-spoons-4436228750": {
+      "title": "Graduate software engineer",
+      "company": "Bending Spoons",
+      "url": "https://www.linkedin.com/jobs/view/4436228750",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 66,
+      "rank_verdict": "Good Fit (location FAIL - excluded)",
+      "rank_date": "2026-07-09",
+      "note": "Requires spending most days in Milan office during first months - relocation requirement conflicts with no-relocation constraint"
+    },
+    "https://es.linkedin.com/jobs/view/graduate-ai-software-engineer-at-bending-spoons-4436244116": {
+      "title": "Graduate AI software engineer",
+      "company": "Bending Spoons",
+      "url": "https://www.linkedin.com/jobs/view/4436244116",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 64,
+      "rank_verdict": "Good Fit (location FAIL - excluded)",
+      "rank_date": "2026-07-09",
+      "note": "Same Milan-office relocation requirement as other Bending Spoons postings"
+    },
+    "https://es.linkedin.com/jobs/view/java-software-engineer-rd3-at-mimacom-4437171077": {
+      "title": "Java Software Engineer - RD3",
+      "company": "Mimacom",
+      "url": "https://www.linkedin.com/jobs/view/4437171077",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "evaluated"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-back-end-at-flit2go-4433860477": {
+      "title": "Desarrollador Back-end",
+      "company": "flit2GO",
+      "url": "https://www.linkedin.com/jobs/view/4433860477",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "LinkedIn tags it 'Entry level' but description explicitly requires 4+ years senior backend experience - mismatch",
+      "rank_score": 54,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-junior-backend-frontend-con-conocimientos-en-c%23-y-google-cloud-at-visia-solutions-4433714251": {
+      "title": "Desarrollador Junior Backend/Frontend con Conocimientos en C# y Google Cloud",
+      "company": "Visia Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4433714251",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Stack mismatch (C#, not in candidate's skillset); requires own vehicle to commute to Beniparrell",
+      "rank_score": 35,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/fullstack-software-engineer-x-f-m-spain-at-alan-4380370026": {
+      "title": "Fullstack Software Engineer (x/f/m) - Spain",
+      "company": "Alan",
+      "url": "https://www.linkedin.com/jobs/view/4380370026",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Requires 3+ years experience; real base offices are Madrid/Barcelona, not Valencia",
+      "rank_score": 56,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/full-stack-engineer-at-imperia-scm-4436369390": {
+      "title": "Full stack Engineer",
+      "company": "Imperia SCM",
+      "url": "https://www.linkedin.com/jobs/view/4436369390",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Stack mismatch: Angular/.NET/C#/SQL Server vs candidate's React/Go/Java",
+      "rank_score": 38,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://jobs.smartrecruiters.com/Flywire1/744000136457529-application-support-ii": {
+      "title": "Application Support II",
+      "company": "Flywire",
+      "url": "https://jobs.smartrecruiters.com/Flywire1/744000136457529-application-support-ii",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Monitored company, Valencia location, but role is Tier-1/2/3 application support, not engineering - doesn't match candidate's career goals",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/graduate-frontend-developer-at-bavarian-capital-4436077898": {
+      "title": "Graduate Frontend Developer",
+      "company": "Bavarian Capital",
+      "url": "https://www.linkedin.com/jobs/view/4436077898",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Frontend-only, not detail-fetched",
+      "rank_score": 56,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/react-frontend-developer-focus-ui-design-to-code-at-gana-energ%C3%ADa-4437807335": {
+      "title": "React Frontend Developer (Focus UI/Design to Code)",
+      "company": "Gana Energía",
+      "url": "https://www.linkedin.com/jobs/view/4437807335",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Frontend/design-focused, weak backend match",
+      "rank_score": 53,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/front-end-designer-react-developer-pharmaceutical-sector-at-dentsu-4436227195": {
+      "title": "Front-End Designer / React Developer (Pharmaceutical Sector)",
+      "company": "dentsu",
+      "url": "https://www.linkedin.com/jobs/view/4436227195",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Design-focused, not detail-fetched",
+      "rank_score": 46,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/fullstack-developer-at-accessiway-4419434485": {
+      "title": "Fullstack Developer",
+      "company": "Accessiway",
+      "url": "https://www.linkedin.com/jobs/view/4419434485",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Not detail-fetched; low priority"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-full-stack-senior-h-m-d-at-yes%21devs-spain-4433461617": {
+      "title": "Desarrollador Full-Stack Senior (h/m/d)",
+      "company": "yes!devs Spain",
+      "url": "https://www.linkedin.com/jobs/view/4433461617",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Senior role, explicit title mismatch"
+    },
+    "https://es.linkedin.com/jobs/view/staff-backend-software-engineer-at-hopper-4434354702": {
+      "title": "Staff Backend Software Engineer",
+      "company": "Hopper",
+      "url": "https://www.linkedin.com/jobs/view/4434354702",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Staff level, far too senior"
+    },
+    "https://zenova.factorial.es/job_posting/junior-full-stack-engineer-310256": {
+      "title": "Junior Full Stack Engineer",
+      "company": "Zenova",
+      "url": "https://zenova.factorial.es/job_posting/junior-full-stack-engineer-310256",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Madrid, requires relocation"
+    },
+    "https://xitaso.jobs.personio.com/job/2688767": {
+      "title": "Junior Software Engineer (all genders) for our locations in Spain",
+      "company": "XITASO",
+      "url": "https://xitaso.jobs.personio.com/job/2688767",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Madrid, requires relocation"
+    },
+    "https://jobs.smartrecruiters.com/Flywire1/744000134226399-senior-data-engineer-i": {
+      "title": "Senior Data Engineer I",
+      "company": "Flywire",
+      "url": "https://jobs.smartrecruiters.com/Flywire1/744000134226399-senior-data-engineer-i",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Monitored company, Valencia, but Senior level - too senior for candidate"
+    },
+    "https://gig.pinpointhq.com/en/postings/47f74262-4a02-4693-ad96-8057fd1254a7": {
+      "title": "Senior Back End Engineer",
+      "company": "Gaming Innovation Group",
+      "url": "https://gig.pinpointhq.com/en/postings/47f74262-4a02-4693-ad96-8057fd1254a7",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Barcelona, senior, requires relocation"
+    },
+    "https://gig.pinpointhq.com/en/postings/4bb3f47f-6ac7-4c1b-b60b-6c9e5ecb276b": {
+      "title": "Senior Back End Engineer",
+      "company": "Gaming Innovation Group",
+      "url": "https://gig.pinpointhq.com/en/postings/4bb3f47f-6ac7-4c1b-b60b-6c9e5ecb276b",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Madrid, senior, requires relocation"
+    },
+    "https://jobs.smartrecruiters.com/T-SystemsIberia/744000136245521-junior-cloud-engineer-t-cloud-public-m-f-d-": {
+      "title": "Junior Cloud Engineer T Cloud Public (m/f/d)",
+      "company": "T-Systems International",
+      "url": "https://jobs.smartrecruiters.com/T-SystemsIberia/744000136245521-junior-cloud-engineer-t-cloud-public-m-f-d-",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Granada, requires relocation"
+    },
+    "https://n26.com/en-eu/careers/positions/7992777?gh_jid=7992777": {
+      "title": "Junior Backend Engineer - Lending",
+      "company": "N26",
+      "url": "https://n26.com/en-eu/careers/positions/7992777?gh_jid=7992777",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Barcelona, requires relocation"
+    },
+    "https://n26.com/en-eu/careers/positions/7656920?gh_jid=7656920": {
+      "title": "Senior Backend Engineer - Customer Risk Lifecycle",
+      "company": "N26",
+      "url": "https://n26.com/en-eu/careers/positions/7656920?gh_jid=7656920",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Berlin/Barcelona, senior, requires relocation"
+    },
+    "https://n26.com/en-eu/careers/positions/8043058?gh_jid=8043058": {
+      "title": "Junior Backend Engineer - Data Ingestion",
+      "company": "N26",
+      "url": "https://n26.com/en-eu/careers/positions/8043058?gh_jid=8043058",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Barcelona, requires relocation"
+    },
+    "https://nttlimited.wd3.myworkdayjobs.com/Internal_employees_not_on_Workday/job/Madrid-Spain/Ingeniero-de-Soporte-IT-Junior---English-Speaker_R-147223": {
+      "title": "Ingeniero de Soporte IT Junior - English Speaker",
+      "company": "NTT",
+      "url": "https://nttlimited.wd3.myworkdayjobs.com/Internal_employees_not_on_Workday/job/Madrid-Spain/Ingeniero-de-Soporte-IT-Junior---English-Speaker_R-147223",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Madrid, IT support not engineering, requires relocation"
+    },
+    "https://careers-axway.icims.com/jobs/8807/inside-sales-rep/job": {
+      "title": "Inside Sales Junior - Mission V.I.E",
+      "company": "Axway Software SA",
+      "url": "https://careers-axway.icims.com/jobs/8807/inside-sales-rep/job",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Madrid"
+    },
+    "https://jobs.smartrecruiters.com/DreesSommerSE/744000134253544-junior-it-support-it-service-desk-client-support": {
+      "title": "Junior IT Support / IT Service Desk / Client Support",
+      "company": "Drees & Sommer",
+      "url": "https://jobs.smartrecruiters.com/DreesSommerSE/744000134253544-junior-it-support-it-service-desk-client-support",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Malaga, IT support not engineering, requires relocation"
+    },
+    "https://nutreco.wd3.myworkdayjobs.com/Nutreco_External/job/Tres-Cantos-Madrid/Tcnico-de-Soporte-IT-Junior_VAC28683-1": {
+      "title": "Técnico de Soporte IT Junior",
+      "company": "Nutreco",
+      "url": "https://nutreco.wd3.myworkdayjobs.com/Nutreco_External/job/Tres-Cantos-Madrid/Tcnico-de-Soporte-IT-Junior_VAC28683-1",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Madrid, IT support not engineering, requires relocation"
+    },
+    "https://nutreco.wd3.myworkdayjobs.com/SHV_Internal_Job_Board/job/Tres-Cantos-Madrid/Tcnico-de-Soporte-IT-Junior_VAC28683": {
+      "title": "Técnico de Soporte IT Junior",
+      "company": "Nutreco",
+      "url": "https://nutreco.wd3.myworkdayjobs.com/SHV_Internal_Job_Board/job/Tres-Cantos-Madrid/Tcnico-de-Soporte-IT-Junior_VAC28683",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Duplicate of above posting"
+    },
+    "https://job-boards.eu.greenhouse.io/feverup/jobs/4816631101": {
+      "title": "Junior Partner Associate (French speaker)",
+      "company": "Fever Up",
+      "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4816631101",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Madrid"
+    },
+    "https://jobs.smartrecruiters.com/AECOM2/744000136446624-junior-hydraulics-drainage-engineer": {
+      "title": "Junior Hydraulics & Drainage Engineer",
+      "company": "AECOM",
+      "url": "https://jobs.smartrecruiters.com/AECOM2/744000136446624-junior-hydraulics-drainage-engineer",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical (civil engineering), Madrid"
+    },
+    "https://jobs.smartrecruiters.com/DreesSommerSE/744000136434259-junior-demand-manager-solution-analyst": {
+      "title": "Junior Demand Manager & Solution Analyst",
+      "company": "Drees & Sommer",
+      "url": "https://jobs.smartrecruiters.com/DreesSommerSE/744000136434259-junior-demand-manager-solution-analyst",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Malaga, requires relocation"
+    },
+    "https://smadexslu.applytojob.com/apply/ZZqnS2jSph/Junior-DevOps-Engineer": {
+      "title": "Junior DevOps Engineer",
+      "company": "Smadex SLU",
+      "url": "https://smadexslu.applytojob.com/apply/ZZqnS2jSph/Junior-DevOps-Engineer",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Barcelona, requires relocation"
+    },
+    "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Santa-Rosalia-Maqueda-Malaga-Malaga/Junior-Vehicle-Test-and-Validation-Engineer_R0000379641": {
+      "title": "Junior Vehicle Test and Validation Engineer",
+      "company": "Caterpillar Inc.",
+      "url": "https://cat.wd5.myworkdayjobs.com/CaterpillarCareers/job/Santa-Rosalia-Maqueda-Malaga-Malaga/Junior-Vehicle-Test-and-Validation-Engineer_R0000379641",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical (automotive), Malaga"
+    },
+    "https://jobs.smartrecruiters.com/Flywire1/744000136481972-client-success-manager": {
+      "title": "Client Success Manager",
+      "company": "Flywire",
+      "url": "https://jobs.smartrecruiters.com/Flywire1/744000136481972-client-success-manager",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Monitored company, Valencia, but non-technical customer success role"
+    },
+    "https://es.linkedin.com/jobs/view/junior-ai-xr-systems-engineer-phd-track-at-instituto-human-tech-upv-4436182825": {
+      "title": "Junior AI-XR Systems Engineer / PhD Track",
+      "company": "Instituto Human Tech UPV",
+      "url": "https://www.linkedin.com/jobs/view/4436182825",
+      "first_seen": "2026-07-09",
+      "fit": "high",
+      "status": "ranked",
+      "note": "UPV LabLENI, VICTOR-XR project. Python backend, LLM agents, tool calling, MCP-like architectures - strong overlap with ITI LangGraph agent experience. Requires master's degree near-complete (candidate finishes Sep 2026) and C1 English (candidate is B2 - gap to flag). ~25k gross/year, PhD-track, starts Oct 2026.",
+      "rank_score": 73,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/genai-engineering-internship-at-provectus-4436358093": {
+      "title": "GenAI Engineering Internship",
+      "company": "Provectus",
+      "url": "https://www.linkedin.com/jobs/view/4436358093",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Strong stack match (FastAPI, RAG, Claude Code named explicitly, LLM agents) but UNPAID 3-month internship - red flag given candidate already has paid R&D experience at ITI, not an entry-level first internship.",
+      "rank_score": 64,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/%F0%9F%9A%80-backend-engineer-ia-python-at-matchtech-4433183332": {
+      "title": "Backend Engineer IA (Python)",
+      "company": "Matchtech",
+      "url": "https://www.linkedin.com/jobs/view/4433183332",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Requires 3-5 years backend experience - too senior despite junior-adjacent framing",
+      "rank_score": 53,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/software-engineer-at-bending-spoons-4436246112": {
+      "title": "Software engineer",
+      "company": "Bending Spoons",
+      "url": "https://www.linkedin.com/jobs/view/4436246112",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "CORRECTED from agent's PASS: this is the same Bending Spoons posting family already fetched during /scrape, which explicitly requires spending most days in the Milan office during the first months regardless of long-term location - not a real Valencia-based role",
+      "rank_score": 70,
+      "rank_verdict": "Good Fit (location FAIL - excluded)",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-at-lsym-group-laboratory-of-simulation-and-modeling-4431517703": {
+      "title": "Desarrollador",
+      "company": "LSyM Group - Laboratory of Simulation and Modeling",
+      "url": "https://www.linkedin.com/jobs/view/4431517703",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "C++ graphics/shader engineering, 3+ years required, team leadership expected - stack and seniority mismatch",
+      "rank_score": 22,
+      "rank_verdict": "Poor Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/pr%C3%A1cticas-formativas-desarrollador-a-de-software-at-capgemini-4438261501": {
+      "title": "Prácticas formativas desarrollador/a de Software",
+      "company": "Capgemini",
+      "url": "https://www.linkedin.com/jobs/view/4438261501",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "FP Superior (vocational, DAM/DAW) student internship requiring an educational-center agreement - wrong education track for a university graduate",
+      "rank_score": 39,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/software-engineer-at-nrf-thermal-engineering-solutions-4434124680": {
+      "title": "Software Engineer",
+      "company": "NRF Thermal Engineering Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4434124680",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "ERP/business-application engineering for automotive parts manufacturing - domain mismatch with candidate's backend/distributed-systems focus",
+      "rank_score": 30,
+      "rank_verdict": "Poor Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://es.linkedin.com/jobs/view/qa-engineer-junior-at-amaris-consulting-4436384191": {
+      "title": "QA Engineer junior",
+      "company": "Amaris Consulting",
+      "url": "https://www.linkedin.com/jobs/view/4436384191",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "ranked",
+      "note": "Requires 2 years dedicated QA/test-automation experience (Tosca, Cypress, JMeter) - candidate has no QA background",
+      "rank_score": 21,
+      "rank_verdict": "Poor Fit",
+      "rank_date": "2026-07-09"
+    },
+    "https://rakuten.wd1.myworkdayjobs.com/RakutenTV/job/Barcelona-Spain/Junior-Partner-Manager---Ad-Monetization_1033687": {
+      "title": "Junior Partner Manager - Ad Monetization",
+      "company": "Rakuten",
+      "url": "https://rakuten.wd1.myworkdayjobs.com/RakutenTV/job/Barcelona-Spain/Junior-Partner-Manager---Ad-Monetization_1033687",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Barcelona, requires relocation"
+    },
+    "https://careers.otovo.com/o/junior-pre-sales-specialist-fmx-german-market": {
+      "title": "(Junior) Pre-Sales Specialist (f/m/x) - German Market",
+      "company": "Otovo",
+      "url": "https://careers.otovo.com/o/junior-pre-sales-specialist-fmx-german-market",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical sales role, Madrid, requires relocation"
+    },
+    "https://job-boards.eu.greenhouse.io/feverup/jobs/4855899101": {
+      "title": "Junior Financial Specialist",
+      "company": "Fever Up",
+      "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4855899101",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Madrid, requires relocation"
+    },
+    "https://job-boards.eu.greenhouse.io/feverup/jobs/4709725101": {
+      "title": "Junior Treasury Analyst",
+      "company": "Fever Up",
+      "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4709725101",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Madrid, requires relocation"
+    },
+    "https://job-boards.eu.greenhouse.io/feverup/jobs/4905277101": {
+      "title": "Junior Partner Representative (Weekends)",
+      "company": "Fever Up",
+      "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4905277101",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, requires relocation"
+    },
+    "https://job-boards.eu.greenhouse.io/feverup/jobs/4905740101": {
+      "title": "Junior HR Operations Specialist",
+      "company": "Fever Up",
+      "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4905740101",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "skipped",
+      "note": "Non-technical role, Madrid, requires relocation"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-a-full-stack-freelance-100%25-online-mobile-%2B-web-at-bigtoone-4437318332": {
+      "title": "Desarrollador/a Full-Stack (Freelance/100% Online) - Mobile + Web",
+      "company": "Bigtoone",
+      "url": "https://www.linkedin.com/jobs/view/4437318332",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "expired",
+      "note": "Strong stack match (React/Next.js/TypeScript, explicitly names Claude Code and Cursor), fully remote, 1-3 yrs experience (a stretch but closer than most). Caveat: freelance/autónomo contract, initially part-time, not a permanent employee role.",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/software-developer-nodejs-reactjs-at-sama-4438252864": {
+      "title": "Software Developer (NodeJs/ReactJs)",
+      "company": "Sama",
+      "url": "https://www.linkedin.com/jobs/view/4438252864",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Mid-Senior level, requires 5+ years and deep MongoDB expertise - too senior",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/%F0%9F%9A%80-fullstack-react-nodejs-100%25-remoto-%F0%9F%9A%80-at-knowmad-mood-4433270841": {
+      "title": "Fullstack React - NodeJS (100% remoto)",
+      "company": "knowmad mood",
+      "url": "https://www.linkedin.com/jobs/view/4433270841",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Requires 3+ years; consultancy staffing role for external retail client, heavily frontend/component-architecture focused rather than backend",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/programador-full-stack-java-jsp-javascript-100%25-remoto-at-knowmad-mood-4433276675": {
+      "title": "Programador Full Stack Java, JSP, Javascript | 100% Remoto",
+      "company": "knowmad mood",
+      "url": "https://www.linkedin.com/jobs/view/4433276675",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Requires 6+ years experience with legacy JSP/JSTL stack - too senior and outdated stack",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/programador-a-full-stack-junior-at-metrica-4433232767": {
+      "title": "Programador/a Full Stack - Junior",
+      "company": "METRICA",
+      "url": "https://www.linkedin.com/jobs/view/4433232767",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Junior title, remote, banking-sector project, 2 yrs experience required (close to candidate's ~10 months). Gap: backend microservices + Angular frontend, Angular not in candidate's stack (React primary).",
+      "rank_score": 48,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-fullstack-junior-at-metrica-4434313719": {
+      "title": "Desarrollador Fullstack Junior",
+      "company": "METRICA",
+      "url": "https://www.linkedin.com/jobs/view/4434313719",
+      "first_seen": "2026-07-09",
+      "fit": "medium",
+      "status": "ranked",
+      "note": "Different METRICA client project (Java/Angular/Oracle), 2 yrs experience required, remote not explicitly stated as 100% (implied via other METRICA postings). Same Angular gap as their other Junior posting.",
+      "rank_score": 39,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "FAIL"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-full-stack-at-afiansys-4433919821": {
+      "title": "Desarrollador Full Stack",
+      "company": "Afiansys",
+      "url": "https://www.linkedin.com/jobs/view/4433919821",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Requires 5+ years experience - too senior",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/machine-learning-engineer-junior-at-evolve-4434468720": {
+      "title": "Machine Learning Engineer Junior",
+      "company": "Evolve",
+      "url": "https://www.linkedin.com/jobs/view/4434468720",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Actually an unpaid 30-week training program (Programa Talento Joven), not a job; hybrid (presencial+online) not fully remote; Data Science/analytics focus, not software engineering",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/front-end-developer-remoto-at-vermont-solutions-4433694771": {
+      "title": "Front End Developer (Remoto)",
+      "company": "Vermont Solutions",
+      "url": "https://www.linkedin.com/jobs/view/4433694771",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Frontend-only, not detail-fetched; weak backend match per profile",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/front-end-developer-typescript-ingl%C3%A9s-c1-100%25-teletrabajo-at-heyclue-4436364065": {
+      "title": "Front-End Developer (TypeScript) | Inglés C1 | 100% Teletrabajo",
+      "company": "HeyClue",
+      "url": "https://www.linkedin.com/jobs/view/4436364065",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Frontend-only; also explicitly requires C1 English, candidate is B2 - real gap",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/front-end-developer-at-coforge-4433662413": {
+      "title": "Front end Developer",
+      "company": "Coforge",
+      "url": "https://www.linkedin.com/jobs/view/4433662413",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Frontend-only, not detail-fetched; weak backend match per profile",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/desarrollador-a-front-end-%E2%80%93-framework-cells-litelement-remoto-at-thewhiteam-4434681022": {
+      "title": "Desarrollador/a Front End – Framework Cells/LitElement - Remoto",
+      "company": "TheWhiteam",
+      "url": "https://www.linkedin.com/jobs/view/4434681022",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Frontend-only, niche framework (LitElement) not in candidate's stack, not detail-fetched",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/qa-tester-junior-at-irium-4434741955": {
+      "title": "QA Tester Junior",
+      "company": "IRIUM",
+      "url": "https://www.linkedin.com/jobs/view/4434741955",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "QA track, not candidate's core direction (consistent with prior Amaris QA low-fit call), not detail-fetched",
+      "rank_date": "2026-09-09"
+    },
+    "https://es.linkedin.com/jobs/view/junior-developer-ai-app-web-cloud-data-machine-learning-at-joinrs-4437142835": {
+      "title": "Junior Developer - AI, App, Web, Cloud, Data, Machine Learning",
+      "company": "Joinrs",
+      "url": "https://www.linkedin.com/jobs/view/4437142835",
+      "first_seen": "2026-07-09",
+      "fit": "low",
+      "status": "expired",
+      "note": "Generic multi-category recruiting-agency listing, vague scope, not detail-fetched",
+      "rank_date": "2026-09-09"
+    },
+    "Flywire|Software Engineer II, Payments Platform": {
+      "title": "Software Engineer II, Payments Platform",
+      "company": "Flywire",
+      "url": "https://www.linkedin.com/jobs/view/4431207755",
+      "first_seen": "2026-09-09",
+      "fit": "high",
+      "status": "ranked",
+      "rank_score": 73,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "ERNI|Fullstack Developer": {
+      "title": "Fullstack Developer",
+      "company": "ERNI",
+      "url": "https://www.linkedin.com/jobs/view/4461098535",
+      "first_seen": "2026-09-09",
+      "fit": "high",
+      "status": "ranked",
+      "rank_score": 55,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Momentum Reim (iukanet)|Desarrollador Backend Junior": {
+      "title": "Desarrollador Backend Junior",
+      "company": "Momentum Reim (iukanet)",
+      "url": "https://freehire.dev/jobs/desarrollador-backend-junior-momentum-reim-mq227acg",
+      "first_seen": "2026-09-09",
+      "fit": "high",
+      "status": "ranked",
+      "rank_score": 55,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Fourvenues|Software Backend Engineer": {
+      "title": "Software Backend Engineer",
+      "company": "Fourvenues",
+      "url": "https://www.linkedin.com/jobs/view/4464467794",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 56,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Fresenius Medical Care|Software Engineer - Clinical Systems (C#/.NET)": {
+      "title": "Software Engineer - Clinical Systems (C#/.NET)",
+      "company": "Fresenius Medical Care",
+      "url": "https://www.linkedin.com/jobs/view/4451810660",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 42,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Affirm|Software Engineer I, Backend (Collections)": {
+      "title": "Software Engineer I, Backend (Collections)",
+      "company": "Affirm",
+      "url": "https://www.linkedin.com/jobs/view/4443174977",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 62,
+      "rank_verdict": "Good Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Mercadona|Angular Developer": {
+      "title": "Angular Developer",
+      "company": "Mercadona",
+      "url": "https://www.linkedin.com/jobs/view/4458890212",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 34,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Mercadona|Ingeniero/a Observabilidad": {
+      "title": "Ingeniero/a Observabilidad",
+      "company": "Mercadona",
+      "url": "https://www.linkedin.com/jobs/view/4458876385",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 43,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Capgemini|Desarrollador/a Java Spring Boot - Proyectos Internacionales": {
+      "title": "Desarrollador/a Java Spring Boot - Proyectos Internacionales",
+      "company": "Capgemini",
+      "url": "https://www.linkedin.com/jobs/view/4462793850",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 52,
+      "rank_verdict": "Moderate Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "Idrica|IT CONSULTANT": {
+      "title": "IT CONSULTANT",
+      "company": "Idrica",
+      "url": "https://www.linkedin.com/jobs/view/4463816573",
+      "first_seen": "2026-09-09",
+      "fit": "medium",
+      "status": "ranked",
+      "rank_score": 42,
+      "rank_verdict": "Weak Fit",
+      "rank_date": "2026-09-09",
+      "rank_location": "PASS"
+    },
+    "IRIUM|AZURE API DEVELOPER": {
+      "title": "AZURE API DEVELOPER",
+      "company": "IRIUM",
+      "url": "https://www.linkedin.com/jobs/view/4462028740",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Recodme|Azure API Developer": {
+      "title": "Azure API Developer",
+      "company": "Recodme",
+      "url": "https://www.linkedin.com/jobs/view/4460318098",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "ATK|Full Stack . React & Python. Hibrido (Almussafes)": {
+      "title": "Full Stack . React & Python. Hibrido (Almussafes)",
+      "company": "ATK",
+      "url": "https://www.linkedin.com/jobs/view/4463342606",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Power Electronics|Software Developer": {
+      "title": "Software Developer",
+      "company": "Power Electronics",
+      "url": "https://www.linkedin.com/jobs/view/4461756504",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "iPRONICS|Frontend Developer": {
+      "title": "Frontend Developer",
+      "company": "iPRONICS",
+      "url": "https://www.linkedin.com/jobs/view/4463874494",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Grupo IskayPet|SOFTWARE ENGINEER BACKEND (GOLANG) JUNIOR/MIDDLE": {
+      "title": "SOFTWARE ENGINEER BACKEND (GOLANG) JUNIOR/MIDDLE",
+      "company": "Grupo IskayPet",
+      "url": "https://www.linkedin.com/jobs/view/4464348460",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Amaris Consulting|Full Stack Developer (via The BIG Jobsite)": {
+      "title": "Full Stack Developer (via The BIG Jobsite)",
+      "company": "Amaris Consulting",
+      "url": "https://freehire.dev/jobs/full-stack-developer-the-big-jobsite-knxgs4qu",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Avantio|Senior Backend Engineer": {
+      "title": "Senior Backend Engineer",
+      "company": "Avantio",
+      "url": "https://www.linkedin.com/jobs/view/4461900217",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "BCNC GROUP|Senior Backend Developer (Java 21/Springboot)": {
+      "title": "Senior Backend Developer (Java 21/Springboot)",
+      "company": "BCNC GROUP",
+      "url": "https://www.linkedin.com/jobs/view/4460034713",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "ALE-HOP|Ingeniero/a de Desarrollo y Soluciones Digitales": {
+      "title": "Ingeniero/a de Desarrollo y Soluciones Digitales",
+      "company": "ALE-HOP",
+      "url": "https://www.linkedin.com/jobs/view/4460384306",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "EDICOM HR|Software Integrator con italiano": {
+      "title": "Software Integrator con italiano",
+      "company": "EDICOM HR",
+      "url": "https://www.linkedin.com/jobs/view/4459771686",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Nextpower|Embedded Firmware Engineer": {
+      "title": "Embedded Firmware Engineer",
+      "company": "Nextpower",
+      "url": "https://www.linkedin.com/jobs/view/4441123182",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Hays|Programador/a .NET": {
+      "title": "Programador/a .NET",
+      "company": "Hays",
+      "url": "https://www.linkedin.com/jobs/view/4459536256",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Mercadona|Firmware BLE Developer": {
+      "title": "Firmware BLE Developer",
+      "company": "Mercadona",
+      "url": "https://www.linkedin.com/jobs/view/4461129112",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Capgemini|Ingenieria de Software - Programa de referencias ADCenter Spain": {
+      "title": "Ingenieria de Software - Programa de referencias ADCenter Spain",
+      "company": "Capgemini",
+      "url": "https://www.linkedin.com/jobs/view/4445924788",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Niji|Fullstack Developer Nodejs / Angular con frances": {
+      "title": "Fullstack Developer Nodejs / Angular con frances",
+      "company": "Niji",
+      "url": "https://www.linkedin.com/jobs/view/4452236247",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Vortech PCI Group|Senior Backend .NET - Valencia": {
+      "title": "Senior Backend .NET - Valencia",
+      "company": "Vortech PCI Group",
+      "url": "https://www.linkedin.com/jobs/view/4461706795",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped"
+    },
+    "Hire Feed|Junior Software Engineer (Remote)": {
+      "title": "Junior Software Engineer (Remote)",
+      "company": "Hire Feed",
+      "url": "https://www.linkedin.com/jobs/view/4465049378",
+      "first_seen": "2026-09-09",
+      "fit": "low",
+      "status": "skipped",
+      "skip_reason": "Not a real targetable opening. Hire Feed is a job aggregator ('a QuikHire product'), not the employer; client undisclosed. Identical posting duplicated as 'European Union' (4456359006) and 'EMEA' (4455576091). Stated pay $180-250K/yr for a new grad is far above Spain market (~EUR20-30K junior). HQ listed Menlo Park CA but website hirefeed.co.in. Generic requirements, no named contact. Matches documented LinkedIn job-scam patterns.",
+      "skip_date": "2026-09-09"
+    }
+  }
+}

@@ -10,7 +10,6 @@ __pycache__/
 venv/
 
 # Compiled documents
-*.pdf
 *.aux
 *.log
 *.out
@@ -19,11 +18,6 @@ venv/
 *.fdb_latexmk
 
 # Personal data (never commit these)
-salary_data.json
-job_scraper/seen_jobs.json
-job_scraper/*.md
-*_BehavioralReport.pdf
-linkedin_Profile.pdf
 
 # Personal photos and signatures
 *.jpg
@@ -54,12 +48,6 @@ cover_letters/Cover_*.tex
 !cover_letters/cover_example.tex
 
 # documents/ subfolder contents are personal — only README and folder structure are tracked
-documents/cv/**
-documents/linkedin/**
-documents/diplomas/**
-documents/references/**
-documents/applications/**
-!documents/**/.gitkeep
 
 # Personal job search tracking
 job_search_tracker.csv
