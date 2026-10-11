@@ -18,14 +18,15 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 ### Identity
 - **Name:** Álvaro López Álvarez
 - **Location:** Valencia, España (Valencia city and nearby area only, no relocation)
-- **Languages:** Spanish (native), Catalan (native), English (B2, confident conversational)
-- **Status:** Available now. R&D internship at ITI ended June 2026; finishing Master's degree part-time (expected Sep 2026). Actively job searching.
+- **Languages:** Spanish (native), Catalan (native), English (B2, certified; confident conversational)
+- **Status:** Available now. R&D internship at ITI ended June 2026; Master's degree completed September 2026. Actively job searching.
 - **LinkedIn headline:** "Junior Software Engineer and Backend Developer"
 
 ### Education
 <!-- List your degrees, most recent first -->
-- **Master's Degree in Computer Engineering (MUIINF)** (2024-2026, in progress) - Polytechnic University of Valencia (UPV)
+- **Master's Degree in Computer Engineering (MUIINF)** (2024-2026, completed) - Polytechnic University of Valencia (UPV)
   - Topics: Distributed systems, high-performance computing, cybersecurity, embedded systems
+  - Final grade: 8.8/10
 - **Grado (BSc) in Ingeniería Informática, Software Engineering track** (2020-2024) - Polytechnic University of Valencia (UPV)
   - Thesis: "ValenMove - Unified Public Transport App" (grade 9/10)
   - GPA: 8.88/10
@@ -42,8 +43,9 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
   - Contributed to backend development, ensuring smooth integration between services
 
 ### Technical Skills
-- **Primary:** Golang, TypeScript/JavaScript, React
-- **Secondary:** Kotlin, Java, Python, SQL, GDScript, C
+- **Primary:** Golang, Java (Spring Boot), TypeScript/JavaScript, React
+- **Secondary:** Kotlin, Python, SQL, GDScript, C
+- *Positioning note (Oct 2026): Java/Spring Boot is being actively deepened (hexagonal architecture, architectural patterns) - give it prominence alongside Go in backend-focused applications.*
 - **Domain:** Backend development, distributed systems, containerization, compilers/interpreters, network protocols, event-driven microservices, LLM/RAG/agentic AI tooling
 - **Software:** Docker, Git, GitHub Actions, PostgreSQL, NATS, Apache APISIX, Kafka, Spring Boot, Firebase, Supabase, Vercel, Render, Android Studio, NeoVim, OAuth 2.0/JWT
 
@@ -68,8 +70,8 @@ None yet.
 
 ### What Excites You
 <!-- What motivates you professionally -->
-- Backend/distributed systems engineering (Go, Docker, event-driven microservices, scalable architecture)
-- Full-stack product ownership (end-to-end features, not just isolated tasks, as with CourseAI)
+- Backend/distributed systems engineering (Go, Java/Spring Boot, Docker, event-driven microservices, scalable architecture)
+- Full-stack product ownership (end-to-end features, not just isolated tasks, as with AIDucate)
 - Deep systems/low-level engineering (compilers, interpreters, network protocols - as with Monkey Interpreter and HTTP-from-TCP)
 
 ### Target Sectors
@@ -82,7 +84,7 @@ None yet.
 ### Deal-breakers
 <!-- Hard constraints on job search -->
 - None strong at this early career stage; evaluate case by case
-- Relocation outside the Valencia area (soft constraint tied to finishing the Master's degree)
+- Relocation outside the Valencia area (soft constraint)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

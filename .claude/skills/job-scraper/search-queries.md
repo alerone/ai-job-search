@@ -17,7 +17,7 @@ Consider running `/add-portal` later to add a native integration for a Spanish j
 
 ## Query Categories
 
-Queries are grouped by priority. Combine with location terms ("Valencia", "Comunitat Valenciana", "España") where the search supports it. **Always include a "junior" qualifier** - candidate has ~10 months of combined professional experience (two ITI internships) plus an in-progress Master's degree, so mid/senior-only postings should generally be filtered out.
+Queries are grouped by priority. Combine with location terms ("Valencia", "Comunitat Valenciana", "España") where the search supports it. **Always include a "junior" qualifier** - candidate has ~10 months of combined professional experience (two ITI internships) plus a completed Master's degree, so mid/senior-only postings should generally be filtered out.
 
 ### Priority 1: Backend Developer / Software Engineer (Go)
 

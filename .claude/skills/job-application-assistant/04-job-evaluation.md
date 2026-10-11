@@ -17,7 +17,7 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 0-39 | Fundamental mismatch |
 
 **Strong match areas:** Golang, backend/distributed systems, Docker, full-stack development (React/TypeScript), PostgreSQL, REST APIs, LLM/RAG and agentic AI tooling
-**Moderate match areas:** Kotlin/Android development, Java/Spring Boot, Kafka, cybersecurity and embedded systems (currently studying in Master's)
+**Moderate match areas:** Kotlin/Android development, Java/Spring Boot, Kafka, cybersecurity and embedded systems (studied in Master's)
 **Weak match areas:** [SKILLS_YOU_LACK]
 
 ### 2. Experience Match (0-100)
@@ -31,8 +31,8 @@ Does work history align with what they're looking for?
 | 0-39 | Unrelated experience |
 
 **Strong:** Backend/full-stack software development, LLM-powered applications, data governance/access-control tooling
-**Moderate:** Distributed systems, event-driven microservices, embedded systems/cybersecurity (still coursework, not yet professional experience)
-**Entry-level:** Roles requiring several years of senior/lead experience (candidate is early-career: ~10 months combined internship experience plus an ongoing Master's degree)
+**Moderate:** Distributed systems, event-driven microservices, embedded systems/cybersecurity (coursework only, not yet professional experience)
+**Entry-level:** Roles requiring several years of senior/lead experience (candidate is early-career: ~10 months combined internship experience plus a completed Master's degree)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -75,9 +75,9 @@ Does this role advance career goals and contain tasks that energize?
 
 **Life situation alignment:** Consider personal constraints:
 - **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT - not yet captured]
-- **Flexibility**: Finishing Master's degree part-time (expected Sep 2026); needs a schedule compatible with ongoing coursework
+- **Flexibility**: Master's degree completed September 2026; fully available, no study commitments constraining the schedule
 - **Professional development**: Wants growth in backend/distributed systems, full-stack ownership, and deep systems programming
-- **Deal-breakers**: None strong at this early career stage (evaluate case by case); relocation outside Valencia is a soft constraint tied to finishing the Master's
+- **Deal-breakers**: None strong at this early career stage (evaluate case by case); relocation outside Valencia is a soft constraint
 
 ### 6. Salary Benchmark (Optional)
 

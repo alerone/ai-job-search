@@ -11,15 +11,15 @@
 - **LinkedIn:** https://www.linkedin.com/in/alvarolopez-dev
 - **GitHub:** https://github.com/alerone
 - **Portfolio:** https://alerone.github.io/portfolio
-- **Languages:** Spanish (native), Catalan (native), English (B2, confident conversational)
-- **Status:** Available now. R&D internship at ITI ended June 2026; finishing Master's degree part-time (expected Sep 2026). Actively job searching.
+- **Languages:** Spanish (native), Catalan (native), English (B2, certified; confident conversational)
+- **Status:** Available now. R&D internship at ITI ended June 2026; Master's degree completed September 2026. Actively job searching.
 - **Constraints:** Valencia city and nearby area only, no relocation
 
 ## Education
 
 | Degree | Period | Institution | Key Topics |
 |--------|--------|-------------|------------|
-| Master's Degree in Computer Engineering (MUIINF) | Oct 2024 - Sep 2026 (in progress) | Polytechnic University of Valencia (UPV) | Distributed systems, high-performance computing, cybersecurity, embedded systems; coursework: Sistemas Empotrados y Ubicuos, Redes y Seguridad |
+| Master's Degree in Computer Engineering (MUIINF) | Oct 2024 - Sep 2026 (completed) | Polytechnic University of Valencia (UPV) | Final grade 8.8/10. Distributed systems, high-performance computing, cybersecurity, embedded systems; coursework: Sistemas Empotrados y Ubicuos, Redes y Seguridad |
 | Grado en Ingeniería Informática (BSc Computer Engineering, Software Engineering track) | 2020 - 2024 | Polytechnic University of Valencia (UPV) | GPA 8.88/10. Thesis (TFG): ValenMove, grade 9/10 |
 
 ## Professional Experience
@@ -38,7 +38,7 @@ Valencia, España
 
 ## Independent Projects
 <!-- Projects outside of employment: freelance, open source, personal -->
-- **CourseAI**: AI-powered SaaS platform generating personalized study plans, content, and exercises via the Gemini API. Go/Gin backend with JWT auth, PostgreSQL persistence, React/TypeScript/Tailwind frontend. Deployed on Render (backend) and Vercel (frontend). (in progress)
+- **AIDucate**: AI-powered SaaS platform generating personalized study plans, content, and exercises via the Gemini API. Go/Gin backend with JWT auth, PostgreSQL persistence, React/TypeScript/Tailwind frontend. Deployed on Render (backend) and Vercel (frontend). (in progress)
 - **ValenMove**: Native Android app (Kotlin, MVVM) unifying Valencia's public transport (EMT, Metrovalencia, Valenbisi) into one interface; reverse-engineered public APIs and used JSoup web scraping plus the city's Open Data portal for real-time arrivals. Final Degree Project, grade 9/10.
 - **FaaS with Golang**: Distributed Function-as-a-Service platform; Go workers execute arbitrary Docker-image functions, NATS JetStream work-queues for reliable task distribution, Apache APISIX gateway for JWT auth and rate limiting, horizontal scaling via Docker Compose replicas.
 - **HTTP from TCP (Go)**: HTTP/1.1 server built directly on raw TCP sockets with no external framework; supports chunked transfer encoding and includes a reverse proxy implementation.
@@ -52,13 +52,19 @@ Valencia, España
 - **HTTP from TCP (Java)**: Java re-implementation of an HTTP/1.1 server directly on raw sockets, built to deepen Java fundamentals (I/O, concurrency via executors, JUnit testing).
 - **English Learning API**: Spring Boot REST API for practicing English phrasal verbs and collocations; JPA entities, DTOs/mappers, Jakarta validation, centralized error handling, randomized practice challenges with attempt tracking.
 
+## Ongoing Learning
+<!-- Informal self-study (AI-generated books), not certified. Frame as self-directed learning, never as a formal course/certification. -->
+- **Hexagonal Architecture in Java with Spring Boot** (in progress, Oct 2026): ports & adapters, keeping the domain independent of frameworks and infrastructure, implementation with Spring Boot
+- **Architectural Design Patterns** (in progress, Oct 2026): study of software architecture patterns and when to apply them
+
 ## Technical Skills
 
 ### Programming & ML
 - **Golang** (primary): backend services, distributed systems, CLI tools, interpreters
+- **Java + Spring Boot** (primary, actively deepening): REST APIs, Kafka-based event-driven microservices, JPA, Testcontainers; currently studying hexagonal architecture and architectural design patterns
 - **TypeScript/JavaScript** (primary): React frontends, Node-based tooling
+- **React** (primary): frontend features, SPAs (Intranet at ITI, AIDucate, CleanApp)
 - **Kotlin** (secondary): native Android development
-- **Java** (secondary): Spring Boot, Kafka-based microservices
 - **Python** (secondary): Flask, LangChain/LangGraph, RAG pipelines
 - **SQL, GDScript, C**: working familiarity
 

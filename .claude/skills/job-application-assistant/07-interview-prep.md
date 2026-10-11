@@ -47,7 +47,7 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 - Action:
 - Result:
 
-### CourseAI - full-stack AI product development
+### AIDucate - full-stack AI product development
 **Source:** CV / Portfolio - personal project (ongoing)
 **What happened:** Designed and built an AI-powered SaaS platform that generates personalized courses using the Gemini API, with a Go backend and React/TypeScript frontend.
 **Why it matters:** End-to-end product ownership, LLM integration, full-stack architecture decisions
