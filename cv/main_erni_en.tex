@@ -1,0 +1,174 @@
+%% Tailored CV - Álvaro López Álvarez (English)
+%% Target: ERNI, Fullstack Developer (International Delivery Center, Valencia)
+%% Compile with: lualatex main_erni_en.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% personal data
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% moderncv's banking style (head variant 3) does not wire up \photo at all -
+% it is silently ignored. Overlay the photo directly instead, anchored to the
+% page corner so it is independent of the centered banking header layout.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Full-Stack Developer with a Master's Degree in Computer Engineering (8.8/10) and two roles at the Instituto Tecnológico de Informática (ITI), spanning React/TypeScript front-end features, back-end integration, and LLM-driven workflow automation. Owns features end-to-end, from REST APIs and PostgreSQL schemas to deployed web apps, event-driven integrations, and containerized services with Docker. Keen to grow in cloud-native development on Microsoft Azure, having already learned Kafka, Spring Boot, and serverless patterns through self-directed projects. Works confidently in English (certified B2), Spanish, and Catalan.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Front-End Development}: TypeScript, JavaScript, HTML/CSS, React, Tailwind, Vite, Three.js
+
+\item \textbf{Back-End \& APIs}: Golang (Gin), Java (Spring Boot), Python (Flask), REST APIs, JSON, OAuth 2.0/JWT
+
+\item \textbf{Databases \& Integrations}: PostgreSQL, SQL, Firebase, Supabase, external service integration (Google Drive, Gemini, OpenAI APIs)
+
+\item \textbf{Cloud-Native \& Event-Driven}: Docker, Docker Compose, serverless (FaaS), NATS JetStream, Apache Kafka, Apache APISIX, Vercel, Render
+
+\item \textbf{Engineering Fundamentals}: Git, GitHub Actions, debugging, testing (JUnit, Testcontainers, integration tests)
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{R\&D Developer}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implemented LLM-based improvements to a search engine
+    \item Built a LangGraph multi-step agent that automates a data-access workflow: it converts natural-language questions into validated, read-only SQL queries over a PostgreSQL data-governance schema to resolve data-access policies
+    \item Designed the workflow for safety and robustness: schema/table selection, structured SQL generation, execution validation, and retry-on-error
+    \item Developed the agent within an application for the management, governance, and sovereignty of industrial data
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\item{\cventry{Feb 2024--Jun 2024}{Full-Stack Developer Intern}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed and maintained the corporate personnel management web application (Intranet)
+    \item Implemented new front-end features using React and TypeScript, improving internal usability
+    \item Contributed to back-end development, ensuring smooth integration between services
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED INDEPENDENT PROJECTS
+% ============================================================
+
+\section{Selected Full-Stack \& Cloud Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{AIDucate} -- \textit{Go, Gin, PostgreSQL, React, TypeScript, Tailwind, Gemini API}: Full-stack SaaS platform generating personalized study plans, content, and exercises. JWT-authenticated Go/Gin REST API with PostgreSQL persistence and Gemini API integration; React/TypeScript frontend deployed on Vercel, backend on Render. \textit{(In progress)}
+
+\item \textbf{FaaS with Golang} -- \textit{Go, Docker, NATS JetStream, Apache APISIX}: Distributed Function-as-a-Service (serverless) platform where Go workers execute arbitrary Docker-image functions. NATS JetStream work-queues for reliable, event-driven task distribution, Apache APISIX gateway for JWT auth and rate limiting, horizontal scaling via Docker Compose replicas.
+
+\item \textbf{Kafka + Spring Boot Ticketing Platform} -- \textit{Java, Spring Boot 3, Apache Kafka, Testcontainers}: Event-driven microservices (reservation, payment, notification, audit) using the outbox pattern, dead-letter topics, idempotent processing, and integration tests with Testcontainers.
+
+\item \textbf{CleanApp} -- \textit{React 19, TypeScript, Vite, Firebase}: Gamified household chore tracker for roommates with Firebase realtime database and authentication, algorithmic task rotation, and a points/leaderboard system.
+
+\item \textbf{OAuth RSE} -- \textit{Python, Flask, Docker, OAuth 2.0}: Dockerized task manager implementing the OAuth 2.0 Authorization Code flow with Google Drive API integration.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2024--2026}{Master's Degree in Computer Engineering (MUIINF)}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+Completed (Sep 2026), final grade 8.8/10. Topics: distributed systems, high-performance computing, cybersecurity, embedded systems.
+}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2024}{Grado (BSc) in Ingeniería Informática, Software Engineering track}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+GPA: 8.88/10. Thesis: ``ValenMove -- Unified Public Transport App'' (grade 9/10), a native Android app (Kotlin, MVVM) integrating public transport APIs, web scraping, and Open Data for real-time arrivals.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Spanish (native), Catalan (native), English (certified B2, confident conversational).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

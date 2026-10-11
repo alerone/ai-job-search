@@ -1,0 +1,175 @@
+%% CV - Álvaro López Álvarez
+%% Tailored for: Programador/a Junior Java (SpringBoot) + Angular + PL/SQL, Adding Technology S.A.
+%%
+%% Compile with: lualatex main_addingtechnology.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{needspace}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV - Adding Technology},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.75]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% personal data
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% moderncv's banking style (head variant 3) does not wire up \photo at all -
+% it is silently ignored. Overlay the photo directly instead, anchored to the
+% page corner so it is independent of the centered banking header layout.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Junior Software Engineer with practical experience in Java and Spring Boot backend development, plus full-stack ownership across relational databases and modern frontend frameworks. Comfortable working autonomously in small, specialized teams, with a track record of independently learning new frameworks and technologies as projects require. Not afraid to learn new technologies.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend Development}: Java, Spring Boot, REST APIs, relational database design (PostgreSQL, SQL)
+
+\item \textbf{Frontend Development}: React, TypeScript, JavaScript
+
+\item \textbf{Distributed Systems}: Docker, Apache Kafka, event-driven microservices
+
+\item \textbf{Additional Languages}: Golang, Python, Kotlin
+
+\item \textbf{Tools \& Practices}: Git, pull-request workflows, GitHub Actions, TDD
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{R\&D Developer}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implemented LLM-based improvements to a search engine
+    \item Built a multi-step agent converting natural-language questions into validated, read-only SQL queries against a PostgreSQL schema, including safety validation and error-driven retries
+    \item Worked autonomously within a small, specialized technical team
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2024--Jun 2024}{Full-Stack Developer Intern}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Developed and maintained the corporate personnel management application (Intranet)
+    \item Implemented new frontend features using React and TypeScript, improving internal usability
+    \item Contributed to backend development, ensuring smooth integration between services
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{3\baselineskip}
+\item \textbf{Kafka + Spring Boot Ticketing Platform}: Event-driven microservices (reservation, payment, notification, audit) built with Spring Boot 3 and Apache Kafka; outbox pattern, dead-letter topics, idempotent processing, Testcontainers integration tests.
+
+\needspace{3\baselineskip}
+\item \textbf{English Learning API}: Spring Boot REST API with PostgreSQL persistence; JPA entities, DTOs/mappers, Jakarta validation, centralized error handling.
+
+\needspace{3\baselineskip}
+\item \textbf{ValenMove}: Native Android app (Kotlin, MVVM) unifying Valencia's public transport into one real-time interface; reverse-engineered public APIs independently. Final Degree Project, grade 9/10.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\needspace{9\baselineskip}
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{4\baselineskip}
+\item{\cventry{2024--2026}{Master's Degree in Computer Engineering (MUIINF)}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+In progress (expected Sep 2026). Topics: distributed systems, high-performance computing, cybersecurity, embedded systems.
+}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2020--2024}{Grado (BSc) in Ingeniería Informática, Software Engineering track}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+GPA: 8.88/10. Thesis: ``ValenMove - Unified Public Transport App'' (grade 9/10).
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Spanish (native), Catalan (native), English (B2, confident conversational).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

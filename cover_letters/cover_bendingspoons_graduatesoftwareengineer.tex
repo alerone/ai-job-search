@@ -1,0 +1,55 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Bending Spoons, Graduate Software Engineer
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Álvaro López Álvarez}}{  \href{mailto:alvaro.lopez.dev@gmail.com}{alvaro.lopez.dev@gmail.com} | +34 640764553 |  \urlstyle{same}\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Bending Spoons Hiring Team,}
+
+\lettercontent{I am writing to apply for the Graduate Software Engineer role. My background spans an LLM agent built with LangGraph, event-driven microservices in Kafka, a distributed Function-as-a-Service platform in Go, and an HTTP server built directly on raw sockets, work that reflects the kind of end-to-end ownership and toolkit versatility this role calls for.}
+
+\lettercontent{What draws me to Bending Spoons specifically is your model of acquiring established products, Evernote and WeTransfer among them, and operating them for the long term with small, talent-dense teams rather than growing headcount for its own sake. That structure rewards exactly the instinct I bring to my own projects: question the complexity in front of you before adding more of it.}
+
+\lettercontent{My experience maps directly onto what the role asks for:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Ownership from idea to production:} As an R\&D Developer at ITI, I took an open-ended problem, natural-language queries against a sensitive data-governance schema, to a working LangGraph agent with schema selection, structured SQL generation, and retry-on-error.
+    \item \textbf{A toolkit that spans languages and layers:} I've shipped a distributed FaaS platform in Go, event-driven microservices in Java and Kafka, and full-stack features in React and TypeScript, choosing the tool the problem called for rather than defaulting to what was familiar.
+    \item \textbf{First-principles systems work:} outside coursework and internships, I built an HTTP/1.1 server directly on raw TCP sockets and a tree-walking interpreter from scratch, simply to understand what frameworks usually hide.
+    \item \textbf{Working across a team, not just a codebase:} as a Full-Stack Developer Intern at ITI, I built frontend features in React and TypeScript while coordinating closely with the backend team so both sides stayed integrated.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I am a self-directed learner: I take on projects like these because I want to understand how something works underneath, not because a course requires it, and I hold myself to a high bar for correctness rather than stopping once something merely runs. I am finishing my Master's degree part-time (expected September 2026) and am available to spend the initial months in the Milan office as the role requires.}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Álvaro López Álvarez}
+\end{flushright}
+\end{document}

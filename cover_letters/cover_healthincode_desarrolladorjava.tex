@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Health in Code, Desarrollador/a Java (Valencia)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Álvaro López Álvarez}}{  \href{mailto:alvaro.lopez.dev@gmail.com}{alvaro.lopez.dev@gmail.com} | +34 640764553 |  \urlstyle{same}\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{September 28, 2026}
+\lettercontent{Dear Health in Code Team,}
+
+\lettercontent{I am applying for the Java Developer position in Valencia. I have just completed my Master's Degree in Computer Engineering at UPV (8.8/10), focused on distributed systems, and I would like to build backend services for a company that, with its own platforms such as DataGenomics, turns genomic data into diagnoses for personalized medicine.}
+
+\lettercontent{Here is what I bring to your team:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Spring Boot and Kafka:} I built an event-driven microservices platform with the outbox pattern, dead-letter topics, idempotent processing, and integration tests with Testcontainers.
+    \item \textbf{RESTful APIs and databases:} I have built REST APIs with JSON exchange over PostgreSQL, both in Java (Spring Boot, JPA) and in Go. At ITI, I developed an agent that generates validated SQL to resolve data-access policies.
+    \item \textbf{Front-end collaboration:} at ITI I built React and TypeScript features integrated with back-end services, so I know what a front-end team needs from an API.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{To be clear, my Java, Spring Boot, and Kafka experience comes from my own personal projects, not from a professional role. I build them because I genuinely enjoy learning: when a technology interests me, I pick a project and build it until I understand it. GraphQL, Kubernetes, and hexagonal architecture, which I have not used yet, are next on that list.}
+
+\lettercontent{I would welcome the opportunity to discuss how I can contribute to your Application Development team.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Álvaro López Álvarez}
+\end{flushright}
+\end{document}

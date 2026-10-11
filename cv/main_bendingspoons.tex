@@ -1,0 +1,176 @@
+%% CV - Álvaro López Álvarez
+%% Tailored for: Graduate software engineer, Bending Spoons
+%%
+%% Compile with: lualatex main_bendingspoons.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{needspace}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV - Bending Spoons},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.77]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% personal data
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% moderncv's banking style (head variant 3) does not wire up \photo at all -
+% it is silently ignored. Overlay the photo directly instead, anchored to the
+% page corner so it is independent of the centered banking header layout.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PROFILE STATEMENT
+% ============================================================
+
+\vspace{6pt}
+\small{Software Engineer who moves comfortably across the stack, choosing the language and tools each problem calls for rather than defaulting to what's familiar: an LLM agent in Python/LangGraph, event-driven microservices in Java and Kafka, a distributed Function-as-a-Service platform in Go, a language interpreter and an HTTP server built from raw sockets. Drawn to owning a problem end to end, from first principles to production, and to cutting complexity that doesn't earn its keep.}
+
+% ============================================================
+%     CORE COMPETENCIES
+% ============================================================
+
+\section{Core Competencies}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend \& Systems Programming}: Golang, TypeScript/JavaScript, Java, Python, Kotlin, C, SQL
+
+\item \textbf{Distributed Architecture}: Docker, event-driven microservices (Kafka, NATS), API gateways (Apache APISIX), horizontal scaling
+
+\item \textbf{Full-Stack Ownership}: React, PostgreSQL, REST APIs, OAuth 2.0/JWT
+
+\item \textbf{LLM/Agentic AI Engineering}: LangChain, LangGraph, RAG pipelines, safety-conscious agent design
+
+\item \textbf{Deep Systems Engineering}: hand-built HTTP/1.1 server on raw TCP sockets, tree-walking language interpreter (lexer, parser, AST, evaluator)
+
+\end{itemize}
+
+% ============================================================
+%     PROFESSIONAL EXPERIENCE
+% ============================================================
+
+\section{Professional Experience}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Most Recent Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{R\&D Developer}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Took an open-ended problem, natural-language queries against a sensitive data-governance schema, to a working system: a LangGraph agent with schema selection, structured SQL generation, execution validation, and retry-on-error
+    \item Implemented LLM-based improvements to a search engine end to end
+    \item Applied safety-first design discipline throughout, since the agent only ever produced validated, read-only SQL against production data
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Previous Role ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2024--Jun 2024}{Full-Stack Developer Intern}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Owned frontend feature delivery in React and TypeScript for the organization's internal personnel-management application, improving usability
+    \item Contributed across the stack, integrating frontend and backend services
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     SELECTED PROJECTS
+% ============================================================
+
+\section{Selected Projects}
+\vspace{1pt}
+\small{Self-initiated, built outside coursework and internships to go deeper on systems fundamentals.}
+\vspace{3pt}
+\begin{itemize}
+
+\needspace{3\baselineskip}
+\item \textbf{FaaS with Golang}: Distributed Function-as-a-Service platform; Go workers execute arbitrary Docker-image functions, NATS JetStream work-queues for reliable task distribution, Apache APISIX gateway for JWT auth and rate limiting, horizontal scaling via Docker Compose replicas.
+
+\needspace{3\baselineskip}
+\item \textbf{Kafka + Spring Boot Ticketing Platform}: Event-driven microservices (reservation, payment, notification, audit); outbox pattern, dead-letter topics, idempotent processing, Testcontainers integration tests.
+
+\needspace{3\baselineskip}
+\item \textbf{Monkey Interpreter \& HTTP Server}: Hand-written lexer, Pratt parser, AST, and evaluator for a custom language, plus an HTTP/1.1 server built directly on raw TCP sockets with no external framework, including chunked transfer encoding and a reverse proxy.
+
+\end{itemize}
+
+% ============================================================
+%     EDUCATION
+% ============================================================
+
+\needspace{9\baselineskip}
+\section{Education}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{4\baselineskip}
+\item{\cventry{2024--2026}{Master's Degree in Computer Engineering (MUIINF)}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+In progress (expected Sep 2026). Topics: distributed systems, high-performance computing, cybersecurity, embedded systems.
+}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2020--2024}{Grado (BSc) in Ingeniería Informática, Software Engineering track}{Polytechnic University of Valencia (UPV)}{Valencia, España}{}{\vspace{1pt}
+GPA: 8.88/10. Thesis: ``ValenMove - Unified Public Transport App'' (grade 9/10).
+}}
+
+\end{itemize}
+
+% ============================================================
+%     LANGUAGES
+% ============================================================
+
+\section{Languages}
+\vspace{1pt}
+\begin{itemize}
+\item Spanish (native), Catalan (native), English (B2, confident conversational).
+\end{itemize}
+
+% ============================================================
+%     REFERENCES
+% ============================================================
+
+\section{References}
+\vspace{1pt}
+\begin{itemize}
+\item{Available upon request.}
+\end{itemize}
+
+\end{document}

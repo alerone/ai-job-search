@@ -1,0 +1,190 @@
+%% CV Completo General - Álvaro López Álvarez (Español)
+%% CV generalista, no orientado a una oferta concreta.
+%% Compilar con: lualatex main_completo_es.tex
+%% (pdflatex suele fallar en instalaciones modernas de MiKTeX con errores de fontawesome5.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Fuerza el nombre, apellidos y los títulos de sección al azul de moderncv
+% (color1). Por defecto, el estilo banking en lualatex+MiKTeX los deja en
+% negro, lo cual desentona con el resto de la paleta azul.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% datos personales
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% El estilo banking de moderncv (variante de cabecera 3) no conecta \photo -
+% se ignora silenciosamente. Se superpone la foto directamente, anclada a la
+% esquina de la página para que sea independiente de la cabecera centrada.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PERFIL PROFESIONAL
+% ============================================================
+
+\vspace{6pt}
+\small{Ingeniero de Software con formación en Ingeniería Informática (Grado y Máster por la UPV) y experiencia práctica en desarrollo backend, sistemas distribuidos, desarrollo full-stack y herramientas de IA agéntica basadas en LLM. Lenguajes principales: Golang y TypeScript, con conocimientos prácticos de Java, Kotlin, Python y SQL. Cómodo asumiendo funcionalidades de extremo a extremo, desde arquitecturas backend orientadas a eventos hasta frontends en React, con especial interés en la ingeniería de sistemas de bajo nivel: compiladores, intérpretes y protocolos de red construidos desde cero. Aprendizaje autónomo constante, reflejado en un porfolio amplio de proyectos personales.}
+
+% ============================================================
+%     COMPETENCIAS TÉCNICAS
+% ============================================================
+
+\section{Competencias Técnicas}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Lenguajes principales}: Golang, TypeScript/JavaScript
+
+\item \textbf{Otros lenguajes}: Java, Kotlin, Python, SQL, C, GDScript
+
+\item \textbf{Backend y Sistemas Distribuidos}: APIs REST, microservicios orientados a eventos, Apache Kafka, NATS JetStream, Apache APISIX, Spring Boot, Gin, Flask
+
+\item \textbf{Full-Stack}: React, PostgreSQL, OAuth 2.0/JWT, Firebase, Supabase
+
+\item \textbf{IA/LLM}: LangChain, LangGraph, pipelines RAG, API de Gemini, API de OpenAI, FAISS
+
+\item \textbf{Infraestructura y Herramientas}: Docker, Docker Compose, Git, GitHub Actions, JUnit, Vercel, Render, Android Studio, NeoVim
+
+\end{itemize}
+
+% ============================================================
+%     EXPERIENCIA PROFESIONAL
+% ============================================================
+
+\section{Experiencia Profesional}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Puesto más reciente ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{Desarrollador I+D}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implementación de mejoras basadas en LLM para un motor de búsqueda
+    \item Desarrollo de un agente multi-paso con LangGraph que convierte preguntas en lenguaje natural en consultas SQL validadas de solo lectura, para resolver políticas de acceso a datos sobre un esquema de gobernanza de datos en PostgreSQL
+    \item Diseño agéntico orientado a la seguridad: selección de esquema/tablas, generación estructurada de SQL, validación de ejecución y reintento ante errores
+    \item Trabajo dentro de una aplicación centrada en la gestión, gobernanza y soberanía de datos industriales
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Puesto anterior ---
+\item{\cventry{Feb 2024--Jun 2024}{Desarrollador Full-Stack (Prácticas)}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Desarrollo y mantenimiento de la aplicación corporativa de gestión de personal (Intranet)
+    \item Implementación de nuevas funcionalidades de frontend con React y TypeScript, mejorando la usabilidad interna
+    \item Contribución al desarrollo backend, garantizando una integración fluida entre servicios
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     PROYECTOS DESTACADOS
+% ============================================================
+
+\section{Proyectos Destacados}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{FaaS con Golang} -- \textit{Go, Docker, NATS JetStream, Apache APISIX}: Plataforma distribuida de Function-as-a-Service en la que workers en Go ejecutan funciones arbitrarias empaquetadas en imágenes Docker. Colas de trabajo con NATS JetStream para una distribución fiable de tareas, gateway con Apache APISIX para autenticación JWT y limitación de tasa, y escalado horizontal mediante réplicas de Docker Compose.
+
+\item \textbf{AIDucate} -- \textit{Go, Gin, PostgreSQL, React, TypeScript, Tailwind, API de Gemini}: Plataforma SaaS impulsada por IA que genera planes de estudio, contenido y ejercicios personalizados. Backend en Go/Gin con autenticación JWT y persistencia en PostgreSQL; frontend en React/TypeScript desplegado en Vercel y backend en Render. \textit{(En desarrollo)}
+
+\item \textbf{ValenMove} -- \textit{Kotlin, MVVM, JSoup}: Aplicación Android nativa que unifica el transporte público de Valencia (EMT, Metrovalencia, Valenbisi) en una sola interfaz; ingeniería inversa de APIs públicas combinada con web scraping y el portal de datos abiertos del ayuntamiento para obtener llegadas en tiempo real. Trabajo de Fin de Grado, calificación 9/10.
+
+\item \textbf{Monkey Interpreter} -- \textit{Go}: Intérprete de árbol de sintaxis para un lenguaje propio, construido a partir del libro \textit{Writing an Interpreter in Go}: lexer, parser Pratt, AST, evaluador y REPL escritos desde cero.
+
+\item \textbf{HTTP desde TCP} -- \textit{Go, Java}: Servidor HTTP/1.1 construido directamente sobre sockets TCP sin frameworks externos, con soporte de \textit{chunked transfer encoding} y un proxy inverso. Reimplementado después en Java para profundizar en E/S, concurrencia con executors y pruebas con JUnit.
+
+\item \textbf{Plataforma de Venta de Entradas con Kafka} -- \textit{Java, Spring Boot 3, Apache Kafka, Docker}: Proyecto autodirigido de microservicios orientados a eventos (reserva, pago, notificación y auditoría) que se comunican mediante eventos de dominio sobre topics de Kafka, para practicar patrones productor/consumidor, particiones, offsets y grupos de consumidores. \textit{(En desarrollo)}
+
+\item \textbf{RAG Course} -- \textit{Python, LangChain, FAISS, Sentence-Transformers, API de OpenAI}: Pipeline completo de Retrieval-Augmented Generation construido desde cero, con almacén vectorial FAISS, generación de embeddings y orquestación con LangChain.
+
+\end{itemize}
+
+% ============================================================
+%     FORMACIÓN ACADÉMICA
+% ============================================================
+
+\section{Formación Académica}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2024--2026}{Máster Universitario en Ingeniería Informática (MUIINF)}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Finalizado (septiembre de 2026), nota media 8,8/10. Temario: sistemas distribuidos, computación de altas prestaciones, ciberseguridad y sistemas empotrados; asignaturas cursadas: Sistemas Empotrados y Ubicuos, Redes y Seguridad.
+}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2024}{Grado en Ingeniería Informática, itinerario de Ingeniería del Software}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Nota media: 8,88/10. Trabajo de Fin de Grado (TFG): ``ValenMove -- Aplicación Unificada de Transporte Público'' (calificación 9/10).
+}}
+
+\end{itemize}
+
+% ============================================================
+%     CERTIFICACIONES
+% ============================================================
+
+\section{Certificaciones}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Inglés nivel B2} -- Cambridge English (centro examinador Lenguas Vivas, Valencia).
+\end{itemize}
+
+% ============================================================
+%     IDIOMAS
+% ============================================================
+
+\section{Idiomas}
+\vspace{1pt}
+\begin{itemize}
+\item Español (nativo), catalán (nativo), inglés (B2 certificado, conversación fluida).
+\end{itemize}
+
+% ============================================================
+%     REFERENCIAS
+% ============================================================
+
+\section{Referencias}
+\vspace{1pt}
+\begin{itemize}
+\item{Disponibles a petición.}
+\end{itemize}
+
+\end{document}

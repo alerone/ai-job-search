@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - Mimacom, Java Software Engineer - RD3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Álvaro López Álvarez}}{  \href{mailto:alvaro.lopez.dev@gmail.com}{alvaro.lopez.dev@gmail.com} | +34 640764553 |  \urlstyle{same}\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear Mimacom Hiring Team,}
+
+\lettercontent{I am writing to apply for the Java Software Engineer (RD3) role. I bring hands-on Java and Spring Boot backend experience alongside genuine React front-end skills, the exact combination this role asks for, and I am confident I can contribute to your client project from day one while continuing to grow.}
+
+\lettercontent{My background maps directly onto what the role needs:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Java and Spring Boot in production-style systems:} I built an event-driven ticketing platform with Spring Boot 3 and Apache Kafka, including an outbox pattern, dead-letter topics, and Testcontainers integration tests.
+    \item \textbf{React front-end delivery:} At ITI, I shipped new front-end features in React and TypeScript for the company's internal Intranet application, working directly alongside the backend team to keep both sides in sync.
+    \item \textbf{Investigating and resolving real issues:} As an R\&D Developer at ITI, I built a multi-step agent that validates and safely retries generated SQL queries, work that depended on tracing bugs back to their root cause under real data constraints.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{What drew me to Mimacom specifically is the breadth of your engineering work, from Kafka-based event-driven systems to enterprise clients across banking, retail, and manufacturing. Having built my own Kafka-based platform, I would welcome the chance to apply that experience to your client projects, and to keep growing my React skills alongside colleagues who already work across this stack daily.}
+
+\lettercontent{I am a fast, self-directed learner: outside of formal coursework, I have built projects ranging from a language interpreter to a Retrieval-Augmented Generation pipeline, simply to understand how the underlying technology works. I am comfortable investigating unfamiliar code, asking for support when needed, and collaborating closely with a team, and I am fluent in both Spanish and English.}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Álvaro López Álvarez}
+\end{flushright}
+\end{document}

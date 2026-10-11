@@ -1,0 +1,178 @@
+%% CV - Álvaro López Álvarez
+%% Adaptado para: Junior Backend Engineer - Lending (Financial Empowerment) - N26
+%%
+%% Compilar con: lualatex main_n26_es.tex
+%% (pdflatex suele fallar en instalaciones modernas de MiKTeX con errores de fontawesome5.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Fuerza el nombre, apellidos y los títulos de sección al azul de moderncv
+% (color1). Por defecto, el estilo banking en lualatex+MiKTeX los deja en
+% negro, lo cual desentona con el resto de la paleta azul.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV - N26},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.75]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% datos personales
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% El estilo banking de moderncv (variante de cabecera 3) no conecta \photo -
+% se ignora silenciosamente. Se superpone la foto directamente, anclada a la
+% esquina de la página, independiente del layout centrado de banking.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PERFIL PROFESIONAL
+% ============================================================
+
+\vspace{6pt}
+\small{Ingeniero de Software Junior que construye fundamentos de backend Java mediante un proyecto autodirigido en Spring Boot y Apache Kafka (en curso), además de experiencia en Kotlin mediante desarrollo nativo Android. Acostumbrado a trabajar de forma independiente y a hacerse cargo de problemas de principio a fin, como demuestra un puesto de I+D diseñando un agente autónomo que resuelve políticas de acceso a datos sin supervisión. Complementa esto con dos puestos full-stack en ITI (Go, React/TypeScript), contenerización con Docker y CI/CD mediante GitHub Actions. Un patrón constante de aprendizaje autónomo de nuevas tecnologías y orientación a resultados, desde la plataforma de venta de entradas con Kafka hasta un servidor HTTP/1.1 construido desde cero.}
+
+% ============================================================
+%     COMPETENCIAS CLAVE
+% ============================================================
+
+\section{Competencias Clave}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Desarrollo Java y Kotlin}: Spring Boot, JPA/Hibernate, JUnit; Kotlin mediante desarrollo nativo Android (MVVM)
+
+\item \textbf{Sistemas Distribuidos y Orientados a Eventos}: Apache Kafka, Docker, microservicios, NATS JetStream
+
+\item \textbf{Fundamentos Backend}: diseño de APIs REST, PostgreSQL, OAuth 2.0/JWT
+
+\item \textbf{Entrega Autónoma}: propiedad independiente de funcionalidades, proyectos de I+D autogestionados, herramientas agénticas/LLM
+
+\item \textbf{Complemento Full-Stack}: Golang, TypeScript/JavaScript (React)
+
+\end{itemize}
+
+% ============================================================
+%     EXPERIENCIA PROFESIONAL
+% ============================================================
+
+\section{Experiencia Profesional}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Puesto más reciente ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{Desarrollador I+D}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implementé mejoras basadas en LLM para un motor de búsqueda
+    \item Construí un agente autónomo multi-paso que convierte preguntas en lenguaje natural en consultas SQL validadas de solo lectura sobre un esquema PostgreSQL, incluyendo validación de seguridad y reintentos ante errores, ejecutado de forma independiente con supervisión mínima
+    \item Gestioné el alcance y las prioridades de entrega en una plataforma de gobernanza de datos cercana a producción, priorizando la selección de esquemas y la validación de seguridad a medida que la especificación evolucionaba
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Puesto anterior ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2024--Jun 2024}{Desarrollador Full-Stack (Prácticas)}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Desarrollé y mantuve una aplicación corporativa de gestión de personal (Intranet) de uso crítico
+    \item Implementé nuevas funcionalidades de frontend con React y TypeScript, mejorando la usabilidad interna
+    \item Colaboré con ingenieros de frontend y backend en el desarrollo backend, asegurando una integración fluida entre servicios mediante flujos de trabajo con control de versiones en Git
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     PROYECTOS DESTACADOS
+% ============================================================
+
+\section{Proyectos Destacados}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{3\baselineskip}
+\item \textbf{Plataforma de Venta de Entradas con Kafka + Spring Boot} (en curso): Proyecto autodirigido construyendo microservicios orientados a eventos (reserva, pago, notificación, auditoría) con Spring Boot 3 y Apache Kafka, para aprender patrones productor/consumidor y diseño de microservicios orientados a eventos.
+
+\needspace{3\baselineskip}
+\item \textbf{ValenMove}: Aplicación nativa Android (Kotlin, MVVM) que unifica el transporte público de Valencia en una sola interfaz; ingeniería inversa de APIs públicas para datos en tiempo real. Trabajo Final de Grado, nota 9/10.
+
+\needspace{3\baselineskip}
+\item \textbf{English Learning API}: API REST en Spring Boot con entidades JPA, DTOs/mappers, validación Jakarta, manejo centralizado de errores y ejercicios de práctica aleatorios con seguimiento de intentos.
+
+\needspace{3\baselineskip}
+\item \textbf{HTTP from TCP (Java)}: Reimplementación en Java de un servidor HTTP/1.1 directamente sobre sockets, construida para profundizar en los fundamentos de Java: I/O, concurrencia mediante executors, pruebas con JUnit.
+
+\end{itemize}
+
+% ============================================================
+%     FORMACIÓN
+% ============================================================
+
+\needspace{9\baselineskip}
+\section{Formación}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{4\baselineskip}
+\item{\cventry{2024--2026}{Máster Universitario en Ingeniería Informática (MUIINF)}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+En curso (finalización prevista sep. 2026). Temas: sistemas distribuidos, computación de altas prestaciones, ciberseguridad, sistemas empotrados.
+}}
+
+\vspace{3pt}
+
+\needspace{4\baselineskip}
+\item{\cventry{2020--2024}{Grado en Ingeniería Informática, itinerario Ingeniería del Software}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Nota media: 8,88/10. TFG: ``ValenMove - App Unificada de Transporte Público'' (nota 9/10).
+}}
+
+\end{itemize}
+
+% ============================================================
+%     IDIOMAS
+% ============================================================
+
+\section{Idiomas}
+\vspace{1pt}
+\begin{itemize}
+\item Español (nativo), catalán (nativo), inglés (B2, conversación fluida).
+\end{itemize}
+
+% ============================================================
+%     REFERENCIAS
+% ============================================================
+
+\section{Referencias}
+\vspace{1pt}
+\begin{itemize}
+\item{Disponibles a petición.}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,207 @@
+%% CV General enfocado a Java - Álvaro López Álvarez (Español)
+%% CV genérico para puestos backend Java / Spring Boot. Sincronizado con main_java_en.tex.
+%% Compilar con: lualatex main_java_es.tex
+%% (pdflatex suele fallar en instalaciones modernas de MiKTeX con errores de fontawesome5.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Fuerza el nombre, apellidos y los títulos de sección al azul de moderncv
+% (color1). Por defecto, el estilo banking en lualatex+MiKTeX los deja en
+% negro, lo cual desentona con el resto de la paleta azul.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% datos personales
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% El estilo banking de moderncv (variante de cabecera 3) no conecta \photo -
+% se ignora silenciosamente. Se superpone la foto directamente, anclada a la
+% esquina de la página para que sea independiente de la cabecera centrada.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% Titular: lo que es / quiere ser el candidato, visible a primera vista.
+\vspace{-4pt}
+\begin{center}
+{\Large\bfseries\color{color1}Desarrollador Backend Junior \textbar{} Java y Spring Boot}\\[3pt]
+{\normalsize\color{color2}APIs REST \textbullet{} Microservicios Orientados a Eventos \textbullet{} Arquitectura Hexagonal}
+\end{center}
+
+% ============================================================
+%     PERFIL PROFESIONAL
+% ============================================================
+
+\vspace{2pt}
+\small{\textbf{Ingeniero de software especializado en el ecosistema Java}, centrado en construir APIs REST y microservicios orientados a eventos con una arquitectura limpia y testeable. Experiencia práctica con Spring Boot 3: microservicios con Kafka (patrón outbox, dead-letter topics, procesamiento idempotente), APIs REST con JPA y Jakarta Validation, y pruebas de integración con Testcontainers. Actualmente profundizando en Java mediante el estudio autodidacta de la arquitectura hexagonal (puertos y adaptadores) con Spring Boot y de patrones de diseño arquitectónico. También domino Golang, TypeScript y React, con experiencia profesional de I+D desarrollando agentes basados en LLM en el ITI. Máster en Ingeniería Informática (nota final 8,8/10) e inglés B2 certificado.}
+
+% ============================================================
+%     COMPETENCIAS CLAVE
+% ============================================================
+
+\section{Competencias Clave}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Backend Java}: Java, Spring Boot 3, Spring Data JPA, Jakarta Validation, APIs REST, DTOs/mappers, gestión centralizada de errores, JUnit, Testcontainers
+
+\item \textbf{Arquitectura}: Arquitectura hexagonal (puertos y adaptadores), microservicios orientados a eventos, patrón outbox, dead-letter topics, consumidores idempotentes
+
+\item \textbf{Mensajería e Infraestructura}: Apache Kafka, NATS, Docker, Docker Compose, Apache APISIX, PostgreSQL
+
+\item \textbf{Otros Lenguajes y Frontend}: Golang, TypeScript/JavaScript, React, Python, Kotlin, SQL
+
+\item \textbf{Ingeniería de IA/LLM}: LangChain, LangGraph, API de Gemini, API de OpenAI, pipelines RAG
+
+\item \textbf{Herramientas y Prácticas}: Git, GitHub Actions, TDD, OAuth 2.0/JWT, Firebase, Supabase, Vercel, Render, NeoVim
+
+\end{itemize}
+
+% ============================================================
+%     EXPERIENCIA PROFESIONAL
+% ============================================================
+
+\section{Experiencia Profesional}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Puesto más reciente ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{Desarrollador I+D}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Implementación de mejoras basadas en LLM para un motor de búsqueda
+    \item Desarrollo de un agente multi-paso con LangGraph que convierte preguntas en lenguaje natural en consultas SQL validadas de solo lectura, para resolver políticas de acceso a datos sobre un esquema de gobernanza de datos en PostgreSQL
+    \item Diseño agéntico orientado a la seguridad: selección de esquema/tablas, generación estructurada de SQL, validación de ejecución, reintento ante errores
+    \item Trabajo dentro de una aplicación centrada en la gestión, gobernanza y soberanía de datos industriales
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Puesto anterior ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2024--Jun 2024}{Desarrollador Full-Stack (Prácticas)}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Desarrollo y mantenimiento de la aplicación corporativa de gestión de personal (Intranet)
+    \item Implementación de nuevas funcionalidades de frontend con React y TypeScript, mejorando la usabilidad interna
+    \item Contribución al desarrollo backend, garantizando una integración fluida entre servicios
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     PROYECTOS JAVA DESTACADOS
+% ============================================================
+
+\section{Proyectos Java Destacados}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Plataforma de Venta de Entradas con Kafka y Spring Boot} -- \textit{Java, Spring Boot 3, Apache Kafka, Testcontainers}: Microservicios orientados a eventos (reserva, pago, notificación, auditoría) con patrón outbox, dead-letter topics, procesamiento idempotente y pruebas de integración con Testcontainers.
+
+\item \textbf{English Learning API} -- \textit{Java, Spring Boot, Spring Data JPA, Jakarta Validation}: API REST para practicar phrasal verbs y collocations en inglés. Entidades JPA, DTOs y mappers, validación de peticiones, gestión centralizada de errores y retos de práctica aleatorios con seguimiento de intentos.
+
+\item \textbf{Servidor HTTP sobre TCP (Java)} -- \textit{Java, JUnit}: Servidor HTTP/1.1 implementado directamente sobre sockets, sin frameworks, para afianzar los fundamentos de Java: flujos de E/S, concurrencia con executors y pruebas unitarias con JUnit.
+
+\end{itemize}
+
+% ============================================================
+%     OTROS PROYECTOS
+% ============================================================
+
+\section{Otros Proyectos}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{FaaS con Golang} -- \textit{Go, Docker, NATS JetStream, Apache APISIX}: Plataforma distribuida de Function-as-a-Service en la que workers ejecutan funciones arbitrarias empaquetadas en imágenes Docker. Colas de trabajo con NATS JetStream, gateway APISIX para autenticación JWT y limitación de tasa, y escalado horizontal con réplicas de Docker Compose.
+
+\item \textbf{AIDucate} -- \textit{Go, Gin, PostgreSQL, React, TypeScript, API de Gemini}: Plataforma SaaS impulsada por IA que genera planes de estudio y ejercicios personalizados. Backend con autenticación JWT y PostgreSQL; frontend React en Vercel, backend en Render. \textit{(En desarrollo)}
+
+\item \textbf{ValenMove} -- \textit{Kotlin, MVVM, JSoup}: Aplicación Android nativa que unifica el transporte público de Valencia (EMT, Metrovalencia, Valenbisi) con llegadas en tiempo real a partir de APIs públicas y datos abiertos. Trabajo de Fin de Grado, calificación 9/10.
+
+\end{itemize}
+
+% ============================================================
+%     FORMACIÓN CONTINUA
+% ============================================================
+
+\section{Formación Continua}
+\vspace{1pt}
+\begin{itemize}
+\item \textbf{Arquitectura Hexagonal en Java con Spring Boot} -- autoformación (en curso): puertos y adaptadores, dominio independiente del framework, adaptadores con Spring Boot.
+\item \textbf{Patrones de Diseño Arquitectónico} -- autoformación (en curso): patrones de arquitectura de software y sus compromisos.
+\end{itemize}
+
+% ============================================================
+%     FORMACIÓN ACADÉMICA
+% ============================================================
+
+\section{Formación Académica}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2024--2026}{Máster Universitario en Ingeniería Informática (MUIINF)}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Finalizado (septiembre de 2026), nota final 8,8/10. Temario: sistemas distribuidos, computación de altas prestaciones, ciberseguridad, sistemas empotrados.
+}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2024}{Grado en Ingeniería Informática, itinerario de Ingeniería del Software}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Nota media: 8,88/10. Trabajo de Fin de Grado (TFG): ``ValenMove -- Aplicación Unificada de Transporte Público'' (calificación 9/10).
+}}
+
+\end{itemize}
+
+% ============================================================
+%     IDIOMAS
+% ============================================================
+
+\section{Idiomas}
+\vspace{1pt}
+\begin{itemize}
+\item Español (nativo), catalán (nativo), inglés (B2 certificado, conversación fluida).
+\end{itemize}
+
+% ============================================================
+%     REFERENCIAS
+% ============================================================
+
+\section{Referencias}
+\vspace{1pt}
+\begin{itemize}
+\item{Disponibles a petición.}
+\end{itemize}
+
+\end{document}

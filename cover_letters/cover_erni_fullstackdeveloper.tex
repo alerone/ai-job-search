@@ -1,0 +1,54 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - ERNI, Fullstack Developer (International Delivery Center, Valencia)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Álvaro López Álvarez}}{  \href{mailto:alvaro.lopez.dev@gmail.com}{alvaro.lopez.dev@gmail.com} | +34 640764553 |  \urlstyle{same}\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{September 28, 2026}
+\lettercontent{Dear ERNI Hiring Team,}
+
+\lettercontent{I am applying for the Fullstack Developer role at ERNI's International Delivery Center in Valencia. I have just completed my Master's Degree in Computer Engineering at UPV, and across two roles at the Instituto Tecnológico de Informática (ITI) I have shipped React/TypeScript features, back-end integrations, and an automated data-access workflow. I am available to start immediately.}
+
+\lettercontent{Your point that, in the age of AI, speed alone is not enough, and that business-critical solutions need quality, robustness, and security from the start, matches how I work. At ITI I built a LangGraph agent that turns natural-language questions into read-only SQL, and I designed it around schema selection, validation, and retry-on-error before any query touched the data.}
+
+\lettercontent{Here is what I would bring to your client teams:}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{Front-end with TypeScript:} I implemented new React/TypeScript features for ITI's personnel management Intranet. Angular is my next step: it is TypeScript-first, and I already picked up Kafka and Spring Boot on my own through self-directed projects.
+    \item \textbf{APIs, databases, and integrations:} in AIDucate I built a JWT-secured Go REST API on PostgreSQL, integrated the Gemini API as an external service, and deployed the frontend on Vercel and the backend on Render.
+    \item \textbf{Event-driven and serverless patterns:} I built a Function-as-a-Service platform with Docker workers and NATS JetStream queues, and a Kafka microservices system with dead-letter topics and idempotent processing.
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{I have not yet worked with Azure Functions, but building my own FaaS platform taught me the model behind them: queue-triggered functions running in containers and scaling horizontally. Your certification coverage gives me a clear path to Azure certification. I am based in Valencia, so the hybrid office days suit me, and I work comfortably in English, Spanish, and Catalan.}
+
+\lettercontent{I would welcome the opportunity to discuss how I can contribute to your Valencia delivery teams.}
+
+\begin{flushright}
+% No trailing \\ inside \closing{} - cover.cls appends its own \\, and a
+% doubled break triggers "! LaTeX Error: There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Álvaro López Álvarez}
+\end{flushright}
+\end{document}

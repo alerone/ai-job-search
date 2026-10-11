@@ -1,0 +1,173 @@
+%% CV adaptado - Álvaro López Álvarez (Español)
+%% Oferta: Health in Code, Desarrollador/a Java (Valencia)
+%% Compilar con: lualatex main_healthincode_es.tex
+%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{blue}
+
+% Force both first and last name AND section headings to render in moderncv
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
+% looks inconsistent with the rest of the blue accent scheme.
+\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+\renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{needspace}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    pdftitle={Álvaro López Álvarez - CV},
+    pdfpagemode=FullScreen,
+}
+\usepackage[scale=0.80]{geometry}
+\usepackage{import}
+\usepackage{eso-pic}
+
+% personal data
+\name{Álvaro}{López Álvarez}
+\address{Valencia, España}{}{}
+\phone[mobile]{+34 640764553}
+\email{alvaro.lopez.dev@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/alvarolopez-dev}{LinkedIn}, \href{https://github.com/alerone}{GitHub}, \href{https://alerone.github.io/portfolio}{Portfolio}}
+
+% moderncv's banking style (head variant 3) does not wire up \photo at all -
+% it is silently ignored. Overlay the photo directly instead, anchored to the
+% page corner so it is independent of the centered banking header layout.
+\AddToShipoutPictureFG{%
+  \ifnum\value{page}=1
+    \AtPageUpperLeft{%
+      \hspace*{\dimexpr\paperwidth-2.3cm-1.3cm\relax}%
+      \raisebox{\dimexpr-1.3cm-2.3cm\relax}{\fboxsep0pt\fboxrule0.6pt\fcolorbox{color1}{white}{\includegraphics[width=2.3cm]{photo}}}%
+    }%
+  \fi
+}
+
+\begin{document}
+
+\makecvtitle
+
+% ============================================================
+%     PERFIL PROFESIONAL
+% ============================================================
+
+\vspace{6pt}
+\small{Desarrollador Backend con un Máster en Ingeniería Informática (8,8/10) centrado en sistemas distribuidos. En proyectos propios ha desarrollado microservicios Java con Spring Boot y Apache Kafka, APIs RESTful con intercambio JSON sobre PostgreSQL y entornos basados en Docker, respaldados por pruebas unitarias y de integración con JUnit y Testcontainers. Dos puestos en el Instituto Tecnológico de Informática (ITI): funcionalidades en React/TypeScript integradas con servicios backend, y SQL validado de solo lectura sobre un esquema PostgreSQL de gobernanza de datos para resolver políticas de acceso. Acostumbrado a colaborar con equipos de frontend en la integración de APIs.}
+
+% ============================================================
+%     COMPETENCIAS CLAVE
+% ============================================================
+
+\section{Competencias Clave}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Java y Spring}: Java, Spring Boot 3, JPA, Jakarta Validation, APIs RESTful, JSON, DTOs/mappers, gestión centralizada de errores
+
+\item \textbf{Microservicios y Mensajería}: Apache Kafka (patrón outbox, dead-letter topics, consumidores idempotentes), NATS JetStream, Apache APISIX, OAuth 2.0/JWT
+
+\item \textbf{Testing}: JUnit, Testcontainers, pruebas unitarias y de integración, TDD
+
+\item \textbf{Bases de Datos y DevOps}: PostgreSQL, SQL, Firebase Realtime Database (NoSQL), Supabase, Docker, Docker Compose, Git, GitHub Actions
+
+\item \textbf{Otros Lenguajes}: Golang, TypeScript/JavaScript (React), Python, Kotlin
+
+\end{itemize}
+
+% ============================================================
+%     EXPERIENCIA PROFESIONAL
+% ============================================================
+
+\section{Experiencia Profesional}
+\vspace{3pt}
+\begin{itemize}
+
+% --- Puesto más reciente ---
+\needspace{5\baselineskip}
+\item{\cventry{Feb 2026--Jun 2026}{Desarrollador I+D}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Desarrollo de un agente multi-paso con LangGraph que convierte preguntas en lenguaje natural en consultas SQL validadas de solo lectura sobre un esquema PostgreSQL de gobernanza de datos para resolver políticas de acceso a datos
+    \item Diseño del flujo orientado a la seguridad y la robustez: selección de esquema/tablas, generación estructurada de SQL, validación de ejecución y reintento ante errores
+    \item Implementación de mejoras basadas en LLM para un motor de búsqueda dentro de una aplicación de gestión, gobernanza y soberanía de datos industriales
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Puesto anterior ---
+\item{\cventry{Feb 2024--Jun 2024}{Desarrollador Full-Stack (Prácticas)}{Instituto Tecnológico de Informática (ITI)}{Valencia, España}{}{\vspace{1pt}
+\begin{itemize}
+    \item Desarrollo y mantenimiento de la aplicación web corporativa de gestión de personal (Intranet)
+    \item Implementación de nuevas funcionalidades de frontend con React y TypeScript, mejorando la usabilidad interna
+    \item Contribución al desarrollo backend, garantizando una integración fluida entre servicios
+\end{itemize}}}
+
+\end{itemize}
+
+% ============================================================
+%     PROYECTOS DESTACADOS
+% ============================================================
+
+\section{Proyectos Propios Java y Backend}
+\vspace{1pt}
+\begin{itemize}
+
+\item \textbf{Plataforma de Venta de Entradas con Kafka y Spring Boot} -- \textit{Java, Spring Boot 3, Apache Kafka, Testcontainers}: Microservicios orientados a eventos (reserva, pago, notificación, auditoría) con patrón outbox, dead-letter topics y procesamiento idempotente, con pruebas de integración mediante Testcontainers.
+
+\item \textbf{English Learning API} -- \textit{Java, Spring Boot, JPA, Jakarta Validation}: API RESTful para practicar phrasal verbs y colocaciones en inglés; entidades JPA, DTOs/mappers, validación con Jakarta, gestión centralizada de errores y retos de práctica aleatorios con seguimiento de intentos.
+
+\item \textbf{HTTP desde TCP (Java)} -- \textit{Java, JUnit}: Servidor HTTP/1.1 construido directamente sobre sockets, trabajando E/S en Java, concurrencia con executors y pruebas con JUnit.
+
+\item \textbf{FaaS con Golang} -- \textit{Go, Docker, NATS JetStream, Apache APISIX}: Plataforma distribuida de Function-as-a-Service en la que workers ejecutan funciones arbitrarias empaquetadas en imágenes Docker. Colas de trabajo con NATS JetStream para una distribución fiable de tareas, gateway con Apache APISIX para autenticación JWT y limitación de tasa, y escalado horizontal mediante réplicas de Docker Compose.
+
+\item \textbf{AIDucate} -- \textit{Go, Gin, PostgreSQL, React, TypeScript, API de Gemini}: Plataforma SaaS full-stack que genera planes de estudio, contenido y ejercicios personalizados. API REST con autenticación JWT y persistencia en PostgreSQL; frontend en React/TypeScript desplegado en Vercel, backend en Render. \textit{(En desarrollo)}
+
+\end{itemize}
+
+% ============================================================
+%     FORMACIÓN ACADÉMICA
+% ============================================================
+
+\section{Formación Académica}
+\vspace{1pt}
+\begin{itemize}
+
+\needspace{5\baselineskip}
+\item{\cventry{2024--2026}{Máster Universitario en Ingeniería Informática (MUIINF)}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Finalizado (septiembre de 2026), nota media 8,8/10. Temario: sistemas distribuidos, computación de altas prestaciones, ciberseguridad, sistemas empotrados.
+}}
+
+\vspace{3pt}
+
+\needspace{5\baselineskip}
+\item{\cventry{2020--2024}{Grado en Ingeniería Informática, itinerario de Ingeniería del Software}{Universitat Politècnica de València (UPV)}{Valencia, España}{}{\vspace{1pt}
+Nota media: 8,88/10. Trabajo de Fin de Grado: ``ValenMove -- Aplicación Unificada de Transporte Público'' (calificación 9/10), app Android nativa (Kotlin, MVVM) que integra APIs de transporte público, web scraping y datos abiertos para llegadas en tiempo real.
+}}
+
+\end{itemize}
+
+% ============================================================
+%     IDIOMAS
+% ============================================================
+
+\section{Idiomas}
+\vspace{1pt}
+\begin{itemize}
+\item Español (nativo), catalán (nativo), inglés (B2 certificado, conversación fluida).
+\end{itemize}
+
+% ============================================================
+%     REFERENCIAS
+% ============================================================
+
+\section{Referencias}
+\vspace{1pt}
+\begin{itemize}
+\item{Disponibles a petición.}
+\end{itemize}
+
+\end{document}
